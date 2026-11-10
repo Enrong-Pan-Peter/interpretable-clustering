@@ -1,0 +1,104 @@
+{
+  "status": "complete",
+  "config": {
+    "stage": "geometry",
+    "datasets": null,
+    "seeds": [
+      17
+    ],
+    "pilot_seeds": [
+      0,
+      1,
+      2
+    ],
+    "compression_methods": [
+      "soft_graph",
+      "sparse_kmeans"
+    ],
+    "n": 480,
+    "p": 8,
+    "signal_features": 3,
+    "separation": 3.0,
+    "max_features": 8,
+    "steps": 40,
+    "restarts": 3,
+    "geometry_sizes": [
+      80
+    ],
+    "neighbors": [
+      5,
+      10
+    ],
+    "pilot_root": "C:\\Users\\Peter\\Desktop\\Github\\ATOMIC_Clustering\\results\\research_diagnostics",
+    "output": "results\\research_obstacle_smoke",
+    "list_only": false
+  },
+  "jobs": [
+    {
+      "stage": "geometry",
+      "dataset": "shells",
+      "seed": 17,
+      "n": 80,
+      "name": "geometry_shells_n80_seed17"
+    }
+  ],
+  "completed": [
+    "geometry_shells_n80_seed17"
+  ],
+  "source_sha256": {
+    "scripts\\run_research_obstacle_suite.py": "2297f485618e78e87fd4e434a93b3c6eef05b3a20a1721b273411171be711d7e",
+    "atomic_research\\__init__.py": "97353df021f085e16f5db3003df3e0a291d67eba02848b920555e81542ffb097",
+    "atomic_research\\calibration.py": "bfee50fc263aa7f38341e991db572eb37efac93fa5e4301076069f66a98db758",
+    "atomic_research\\compression_audit.py": "9558fe8423a1f3ec93398e7931749cf6d3311c9f674f663f6542d7ebc35c8418",
+    "atomic_research\\datasets.py": "9142b7d7716be1bbc10a61f1dd5258c4a9d8cfb4f82a97b53897ab4d70a09b5e",
+    "atomic_research\\experiment.py": "d8441c0086aeb44a3126e4f1a074ca38d52dd44124231a9f3f76fa45ba0bc4b7",
+    "atomic_research\\obstacle_audits.py": "554f323e723b024e40a1c9832199703958c267195cad4e7362473ab3d8bf207d",
+    "atomic_research\\retained_models.py": "5b05a6e30579cd478bcc7f8c1dbf38f4081113c90b279cb8e9c1f4042eb552e8",
+    "atomic_research\\scoring.py": "3c548cf58641932a136fccc8e0f9330e2ae05f88c9a6a7b97b8443d56e04498f",
+    "atomic_research\\search.py": "96a8966ded5d0403d7a26e44597c4b9ec21778f4a6d97072191130824e6b5137",
+    "atomic_research\\soft_graph.py": "c48f6298137ea6c94ff86a722b15f4080650c4d0098191f0af3ce028b10d26fd",
+    "atomic_research\\sparse_kmeans.py": "30ff4797e21b3e37a596278696289c72d94081c561502f2e892b7114d20b2121",
+    "atomicplus\\__init__.py": "447ed0280444eb542ff41093a0e3714de13cdc6cbbd1b95095aa6a492b38d70e",
+    "atomicplus\\archive.py": "0b73433236de08c10ff74bc83f7254b13ef6f75bd7f15cb8b65388209e9fb061",
+    "atomicplus\\config.py": "7f3347285c56dcbdc92a40dd699cb095df9b7fa8d591749235c7c71a37b0bed0",
+    "atomicplus\\datasets\\__init__.py": "ab4cc7c5b556197cc07887e189f7c18139367bacc91c4a9ba66d17057baae64e",
+    "atomicplus\\datasets\\pam50.py": "292f477bccfdf36f0df1eb01b3d25f932aded1b643fc971d1e2f222dcd212330",
+    "atomicplus\\datasets\\real.py": "633e0371cdc5d220cad43fbbf2afc9855a7623fb7f01e62f711be5a0ca642735",
+    "atomicplus\\datasets\\structured_noise.py": "5672f6b57dbf598babe53c957a892394c9288a169484cd1843fd1269683f26d6",
+    "atomicplus\\datasets\\synthetic.py": "048c015796c5310e646925fd3f56a8dce78fa92882d99b6bbf20f36bf394a3ca",
+    "atomicplus\\datasets\\uci.py": "5954f7645cba05f3c7bb9da2cfa33877331445baca0fb402307051dd22bb088d",
+    "atomicplus\\engine.py": "c47d4a05512478dce30e2d05192001045b6989c54b03074173ff3fc5ed0b89ba",
+    "atomicplus\\evaluation\\__init__.py": "202264e160df7dbfc56feb6e4e041c7a1428544d6b5da43ca1d568c8d28f3142",
+    "atomicplus\\evaluation\\baselines.py": "018bf03202058d8a1f78b6d0ebe216ed964f81f5f9bf471b1384e420dae80494",
+    "atomicplus\\evaluation\\calibration.py": "22d6501984e1875b8b3beab4b04ee36388b1006b4568676b383f692efa97ffe1",
+    "atomicplus\\evaluation\\diversity.py": "39fbda5860cfc6dfb0fa8fb21df6fd8eaee85377e80f22ab4cc97edfac042029",
+    "atomicplus\\evaluation\\harness.py": "ce0d15b32a1cc85fb1b49b4b7cdbecec1d7a36d7d0567a89245dba33f8668886",
+    "atomicplus\\evaluation\\metrics.py": "1cc3ac37d9093f63c166f5333485df457590f8527cdbaab641de79f69e95eb20",
+    "atomicplus\\evaluation\\multivariance.py": "03b48d540dc3947a7f6ee1c368abceee38616bf3f7839e6574eb05f9fb32d9d4",
+    "atomicplus\\evaluation\\search_baselines.py": "d75ac67dbc953f1f1cb2f9154a4eb6619fef632458981e956ed8237c3aa31813",
+    "atomicplus\\evaluation\\significance.py": "cf306369e04fa8a15297096e097974332120ce2e598c0bcfb24169be367ca0ae",
+    "atomicplus\\evaluation\\stopping.py": "788437eb08afcd25fa82a6b42c139033351d504152723468bb264cfd5a837d43",
+    "atomicplus\\evaluation\\subspace_baselines.py": "de7cda8460983c1811a70ebb16da09e3a0f0676aac5099dc9b73ab1c027ec519",
+    "atomicplus\\fitness.py": "d359ad5faebb1108456c1b501eba79f539dbbee73dfc5c5cfb44f32e00d97dc4",
+    "atomicplus\\gate.py": "8c673b17e43dbbdc772799d93e983599dde1c11b765db633cee7dee6f93af7c2",
+    "atomicplus\\genome.py": "71addc8070261efc22c74f58a2a9db6705780ee9ca3cedc5102b6a6aa9baf062",
+    "atomicplus\\operators.py": "74be04870395ed0d671d2e147b7021740923b52662977f02e4fa0e5edba497cb",
+    "atomicplus\\persistence.py": "61070f883a8964ee33afd0d8e60839dd8f1a5564763bd0166160ed674e9335e5",
+    "atomicplus\\preprocessing.py": "1f5afad5a30639584db1878f3801acafa3a05fff5fe8466c994fb802d3df864c",
+    "atomicplus\\selection.py": "5c9982bccf0f3009971ec8effdbd018ae84b6c437c23e1322ccd9c3d0801e2ed",
+    "atomicplus\\topology.py": "4d6d54ee5343901453fc95c62141ad001efc33a40929d8c8dcef27006b0491ec",
+    "atomicplus\\tree.py": "fb3fdca75264c76bb7d5a5ff7c9ebfb75461fe67c590b432354f0140c7c8421b"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "threads": 1
+  },
+  "no_test_label_selection": true,
+  "no_cluster_acceptance_rule": true,
+  "scope": "development ablations; compression reuses pilot, real-data seeds reuse cohorts",
+  "current_job": null,
+  "seconds": 0.1963128999923356
+}

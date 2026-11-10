@@ -1,0 +1,22 @@
+{
+  "assessment_date": "2026-10-31",
+  "decision": "retain frozen kernel_best and narrow supported scope",
+  "next_stage": "application eligibility, published comparators, interpretable reporting; no new broad synthetic tuning sweep",
+  "completed_stage": "planned frozen replication and stress batch",
+  "scientific_changes_made_after_results": false,
+  "supported_observation": "exact recovery for all tested baseline and dependent-Gaussian-nuisance shell datasets under both search seeds",
+  "limits": [
+    "72-feature recovery depends on search seed",
+    "weak separation has search, fitted-model/acceptance and observed finite-sample ranking limitations",
+    "mean-shift populations remain unsupported",
+    "real-data utility and novelty not established"
+  ],
+  "assessment": "docs/research/feature-set-replication-assessment-2026-10-31.md",
+  "artifact_sha256": {
+    "manifest.json": "8f1e8a5339bb2c2746ffd3c1b1f0c75eb1f831cac33126892091178ced440955",
+    "summary.json": "22bad50565ed473f1bfb9669b59301c72fd1d28a443e164d85bd609c59b45395",
+    "comparison.json": "2377550f87a1fb7cf98c1e2e34a22aa8d2f64c82375078618e607f5f429bf8f3",
+    "audit.json": "ef949f0b6623e56637c64ca26cc837775b85be6f666bf4673c456c5fba6f094b"
+  },
+  "audit_checks": 1811652
+}

@@ -1,0 +1,52 @@
+{
+  "status": "complete",
+  "config": {
+    "mode": "search",
+    "dataset": "mean_shift",
+    "contrast": null,
+    "n": 160,
+    "p": 16,
+    "signal_features": 5,
+    "separation": 3.0,
+    "seed": 0,
+    "max_features": 8,
+    "budget": 16,
+    "reference_budget": 12,
+    "methods": [
+      "random",
+      "forward",
+      "evolutionary",
+      "soft_graph",
+      "sparse_kmeans"
+    ],
+    "objective": "consistent",
+    "splitter": "spectral",
+    "k": 10,
+    "steps": 8,
+    "restarts": 1,
+    "proposal_rows": 128,
+    "proposal_seconds": null,
+    "fidelity": 0.95,
+    "permutations": 39,
+    "output": "results/research_smoke"
+  },
+  "python": "3.12.14",
+  "dependencies": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "pandas": "2.3.3"
+  },
+  "source_sha256": {
+    "atomic_research\\__init__.py": "97353df021f085e16f5db3003df3e0a291d67eba02848b920555e81542ffb097",
+    "atomic_research\\datasets.py": "130d2ee34389680479c234bd8f537d7da7d8cec13ff2808f8b533acbd8baf318",
+    "atomic_research\\experiment.py": "44c3e563f1e489bf2dbb681a0b03efa3101b1807ba947a58448c5b8feae78262",
+    "atomic_research\\scoring.py": "3c548cf58641932a136fccc8e0f9330e2ae05f88c9a6a7b97b8443d56e04498f",
+    "atomic_research\\search.py": "830df3a5e973a7af9e354d1ef3a4faff8d64659b01328f1cd5e3023fc43dacd2",
+    "atomic_research\\soft_graph.py": "c48f6298137ea6c94ff86a722b15f4080650c4d0098191f0af3ce028b10d26fd",
+    "atomic_research\\sparse_kmeans.py": "30ff4797e21b3e37a596278696289c72d94081c561502f2e892b7114d20b2121",
+    "scripts\\run_research_diagnostics.py": "17f17b7a51b4fc0707d6216d970b790bf191302c262cff3e492eb764d93961a8"
+  },
+  "scientific_status": "diagnostic prototype, not validated method or novelty proof",
+  "total_seconds": 1.6961050999816507
+}

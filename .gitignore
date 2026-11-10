@@ -1,0 +1,83 @@
+# Keep research code, tests, dependency lists, documentation, and the small
+# tracked 2d_data examples. Raw datasets and full outputs stay local/in the ZIP.
+# Downloaded datasets, temporary work, backups, and handoff archives.
+/data/
+/tmp/
+/_to_delete/
+/deliverables/
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.bak
+*.log
+# Keep compact experiment evidence and source provenance, not bulk outputs.
+# Re-include directories so Git can reach the allowed files inside them.
+/results/**
+!/results/**/
+!/results/**/summary.md
+!/results/**/summary.csv
+!/results/**/analysis.md
+!/results/**/manifest.json
+!/results/**/audit.json
+!/results/**/comparison.json
+!/results/**/assessment_decision.json
+!/results/**/frozen_candidate.json
+!/results/**/development_source_manifest.json
+!/results/**/development_source_audit.json
+!/results/**/resume_parent_manifest.json
+!/results/audit_saved_tree_results_2026-09-09.json
+# The frozen replication runner needs the archived experiment source.
+!/results/**/source_snapshot/**/*.py
+!/results/**/resume_parent_sources/**/*.py
+# Temporary test outputs must stay ignored even when their names match above.
+/results/research_test_tmp_*/
+# Keep the research handoff narrative; exclude ZIP builders, package manifests,
+# verification output, and machine-specific inventories.
+/handoff/**
+!/handoff/**/
+!/handoff/**/[0-9][0-9]_*.md
+!/handoff/**/README.md
+/request-to-matthew.md
+# Local Python environments, caches, and build/test artifacts.
+.venv/
+.venv-*/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+build/
+dist/
+*.egg-info/
+.ipynb_checkpoints/
+# Local agent instructions and settings, not research documentation.
+.codex/
+.agents/
+.claude/
+.cursor/
+AGENTS.md
+AGENTS.local.md
+CLAUDE.md
+CLAUDE.local.md
+GEMINI.md
+SKILL.md
+.cursorrules
+.github/copilot-instructions.md
+# Local editor settings, environment variables, and operating-system files.
+.vscode/
+.idea/
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+Desktop.ini
+~$*

@@ -1,0 +1,24 @@
+{
+  "status": "complete",
+  "config": {
+    "pilot_root": "C:\\Users\\Peter\\Desktop\\Github\\ATOMIC_Clustering\\results\\research_diagnostics",
+    "datasets": [
+      "mean_shift"
+    ],
+    "seeds": [
+      0
+    ],
+    "reference_per_size": 12,
+    "min_reference_count": 8,
+    "output": "results\\research_ranking_followup_smoke"
+  },
+  "scope": "post-pilot development reanalysis",
+  "source_runs": [
+    "search_mean_shift_p50_s5_seed0_20260915T153533_581854Z"
+  ],
+  "followup_sources": {
+    "scripts\\run_research_ranking_followup.py": "383beba0dac923aeb6eb00f12eb5389a2a6aae704a86f394221f829f160bd848",
+    "atomic_research\\calibration.py": "bfee50fc263aa7f38341e991db572eb37efac93fa5e4301076069f66a98db758"
+  },
+  "seconds": 4.408959600000344
+}

@@ -1,0 +1,1081 @@
+{
+  "status": "complete",
+  "created_utc": "2026-10-25T18:48:18.954415+00:00",
+  "jobs": [
+    {
+      "name": "shells_d2_p24_seed2401_search3203",
+      "case": "shells",
+      "dimension": 2,
+      "p": 24,
+      "seed": 2401,
+      "search_seed": 3203,
+      "n_fit": 600,
+      "n_search": 600,
+      "n_validation": 600,
+      "n_test": 600,
+      "max_size": 10,
+      "budget": 256,
+      "methods": [
+        "moment_best",
+        "moment_first",
+        "kernel_best",
+        "kernel_first"
+      ],
+      "data_source": {
+        "directory": "C:\\Users\\Peter\\Desktop\\Github\\ATOMIC_Clustering\\results\\research_radial_search\\20261020T174212_534139Z\\shells_d2_p24_seed2401_search3203",
+        "splits_sha256": "172758112739a6f2b3f0918c2e0a70f33f48cfc25d9205ed747eb4b739369efa",
+        "job_sha256": "d42ebd5b366de5ccf5b2638cffbc69742307548da8ac1309c7b77192acf22ae0",
+        "manifest_sha256": "909fce31c65d5679e91fa1ec1847f5a8aaa585624c59adf138e2c865b40a5b75",
+        "audit_sha256": "af2bb2453763a947f34186c619121d05a6ea530eb73d2ba40bee85f9b0d5dc22",
+        "purpose": "reused development data; not fresh replication"
+      }
+    },
+    {
+      "name": "shells_d3_p24_seed2401_search3203",
+      "case": "shells",
+      "dimension": 3,
+      "p": 24,
+      "seed": 2401,
+      "search_seed": 3203,
+      "n_fit": 600,
+      "n_search": 600,
+      "n_validation": 600,
+      "n_test": 600,
+      "max_size": 10,
+      "budget": 256,
+      "methods": [
+        "moment_best",
+        "moment_first",
+        "kernel_best",
+        "kernel_first"
+      ],
+      "data_source": {
+        "directory": "C:\\Users\\Peter\\Desktop\\Github\\ATOMIC_Clustering\\results\\research_radial_search\\20261020T174212_534139Z\\shells_d3_p24_seed2401_search3203",
+        "splits_sha256": "704c28b1568e9c908bd34f4413aa8ab7f6d4f306f142f90b729856afe181495c",
+        "job_sha256": "ca609a04e80bc16aeaaf6622da7b50a9519aac2033f8a67ae7df685bfc164762",
+        "manifest_sha256": "909fce31c65d5679e91fa1ec1847f5a8aaa585624c59adf138e2c865b40a5b75",
+        "audit_sha256": "af2bb2453763a947f34186c619121d05a6ea530eb73d2ba40bee85f9b0d5dc22",
+        "purpose": "reused development data; not fresh replication"
+      }
+    },
+    {
+      "name": "shells_d4_p24_seed2401_search3203",
+      "case": "shells",
+      "dimension": 4,
+      "p": 24,
+      "seed": 2401,
+      "search_seed": 3203,
+      "n_fit": 600,
+      "n_search": 600,
+      "n_validation": 600,
+      "n_test": 600,
+      "max_size": 10,
+      "budget": 256,
+      "methods": [
+        "moment_best",
+        "moment_first",
+        "kernel_best",
+        "kernel_first"
+      ],
+      "data_source": {
+        "directory": "C:\\Users\\Peter\\Desktop\\Github\\ATOMIC_Clustering\\results\\research_radial_search\\20261020T174212_534139Z\\shells_d4_p24_seed2401_search3203",
+        "splits_sha256": "87ae65602413d8037b693950789d24e0e440f9bf36ca4d49702b389df8ba9cf7",
+        "job_sha256": "45d50c75eb0a4dffb89dbe2e7873ec0a919021614d885f6f20f3c4c694256e2b",
+        "manifest_sha256": "909fce31c65d5679e91fa1ec1847f5a8aaa585624c59adf138e2c865b40a5b75",
+        "audit_sha256": "af2bb2453763a947f34186c619121d05a6ea530eb73d2ba40bee85f9b0d5dc22",
+        "purpose": "reused development data; not fresh replication"
+      }
+    },
+    {
+      "name": "shells_d5_p24_seed2401_search3203",
+      "case": "shells",
+      "dimension": 5,
+      "p": 24,
+      "seed": 2401,
+      "search_seed": 3203,
+      "n_fit": 600,
+      "n_search": 600,
+      "n_validation": 600,
+      "n_test": 600,
+      "max_size": 10,
+      "budget": 256,
+      "methods": [
+        "moment_best",
+        "moment_first",
+        "kernel_best",
+        "kernel_first"
+      ],
+      "data_source": {
+        "directory": "C:\\Users\\Peter\\Desktop\\Github\\ATOMIC_Clustering\\results\\research_radial_search\\20261020T174212_534139Z\\shells_d5_p24_seed2401_search3203",
+        "splits_sha256": "a37c1105d3426e77f8eb2a02a75c0a6a1131c6d0a6d1f7b51dab4435c2b0ada2",
+        "job_sha256": "b26bd5f0c3a6981a148fb74f7445ec16e6e52b5d081381f66ed943c68e90b508",
+        "manifest_sha256": "909fce31c65d5679e91fa1ec1847f5a8aaa585624c59adf138e2c865b40a5b75",
+        "audit_sha256": "af2bb2453763a947f34186c619121d05a6ea530eb73d2ba40bee85f9b0d5dc22",
+        "purpose": "reused development data; not fresh replication"
+      }
+    },
+    {
+      "name": "shells_d8_p24_seed2401_search3203",
+      "case": "shells",
+      "dimension": 8,
+      "p": 24,
+      "seed": 2401,
+      "search_seed": 3203,
+      "n_fit": 600,
+      "n_search": 600,
+      "n_validation": 600,
+      "n_test": 600,
+      "max_size": 10,
+      "budget": 256,
+      "methods": [
+        "moment_best",
+        "moment_first",
+        "kernel_best",
+        "kernel_first"
+      ],
+      "data_source": {
+        "directory": "C:\\Users\\Peter\\Desktop\\Github\\ATOMIC_Clustering\\results\\research_radial_search\\20261020T174212_534139Z\\shells_d8_p24_seed2401_search3203",
+        "splits_sha256": "afdf9028adc65244c910cbfa958e92fe8e9e7a28f5620c88b3b786962b52df52",
+        "job_sha256": "85ee4ea917eb2da7ae6de5c64bc069c0ee493fd2aee2fbf7f424659277757ee6",
+        "manifest_sha256": "909fce31c65d5679e91fa1ec1847f5a8aaa585624c59adf138e2c865b40a5b75",
+        "audit_sha256": "af2bb2453763a947f34186c619121d05a6ea530eb73d2ba40bee85f9b0d5dc22",
+        "purpose": "reused development data; not fresh replication"
+      }
+    },
+    {
+      "name": "single_shell_d2_p24_seed2401_search3203",
+      "case": "single_shell",
+      "dimension": 2,
+      "p": 24,
+      "seed": 2401,
+      "search_seed": 3203,
+      "n_fit": 600,
+      "n_search": 600,
+      "n_validation": 600,
+      "n_test": 600,
+      "max_size": 10,
+      "budget": 256,
+      "methods": [
+        "moment_best",
+        "moment_first",
+        "kernel_best",
+        "kernel_first"
+      ],
+      "data_source": {
+        "directory": "C:\\Users\\Peter\\Desktop\\Github\\ATOMIC_Clustering\\results\\research_radial_search\\20261020T174212_534139Z\\single_shell_d2_p24_seed2401_search3203",
+        "splits_sha256": "a2e04170d91f03ae384a1d8dfb1e235497ec1b1a3a8bb1984d74840a5481c7b9",
+        "job_sha256": "c4cd641affbde65afb300bb06182f5eb8b5af3c88590c5fc78a2d9902972ab2c",
+        "manifest_sha256": "909fce31c65d5679e91fa1ec1847f5a8aaa585624c59adf138e2c865b40a5b75",
+        "audit_sha256": "af2bb2453763a947f34186c619121d05a6ea530eb73d2ba40bee85f9b0d5dc22",
+        "purpose": "reused development data; not fresh replication"
+      }
+    },
+    {
+      "name": "single_shell_d5_p24_seed2401_search3203",
+      "case": "single_shell",
+      "dimension": 5,
+      "p": 24,
+      "seed": 2401,
+      "search_seed": 3203,
+      "n_fit": 600,
+      "n_search": 600,
+      "n_validation": 600,
+      "n_test": 600,
+      "max_size": 10,
+      "budget": 256,
+      "methods": [
+        "moment_best",
+        "moment_first",
+        "kernel_best",
+        "kernel_first"
+      ],
+      "data_source": {
+        "directory": "C:\\Users\\Peter\\Desktop\\Github\\ATOMIC_Clustering\\results\\research_radial_search\\20261020T174212_534139Z\\single_shell_d5_p24_seed2401_search3203",
+        "splits_sha256": "126e620bd545a41e9b3c641e6412acf134caa6c56f3c0258cb8befdbe4c6ac10",
+        "job_sha256": "a8369c3e33bf4bf5d0c1652479da252927c3c0c9a734a72e81b1a49c5260f861",
+        "manifest_sha256": "909fce31c65d5679e91fa1ec1847f5a8aaa585624c59adf138e2c865b40a5b75",
+        "audit_sha256": "af2bb2453763a947f34186c619121d05a6ea530eb73d2ba40bee85f9b0d5dc22",
+        "purpose": "reused development data; not fresh replication"
+      }
+    },
+    {
+      "name": "independent_gaussian_d5_p24_seed2401_search3203",
+      "case": "independent_gaussian",
+      "dimension": 5,
+      "p": 24,
+      "seed": 2401,
+      "search_seed": 3203,
+      "n_fit": 600,
+      "n_search": 600,
+      "n_validation": 600,
+      "n_test": 600,
+      "max_size": 10,
+      "budget": 256,
+      "methods": [
+        "moment_best",
+        "moment_first",
+        "kernel_best",
+        "kernel_first"
+      ],
+      "data_source": {
+        "directory": "C:\\Users\\Peter\\Desktop\\Github\\ATOMIC_Clustering\\results\\research_radial_search\\20261020T174212_534139Z\\independent_gaussian_d5_p24_seed2401_search3203",
+        "splits_sha256": "cd18f4d4077a2302eea45957579c0d9da8be66f6d4552f36cfbf16a1d445cda4",
+        "job_sha256": "2d3f49155c8a6f2900d8917b3193d4cbffea8dfdcc1d92accff26d3c25e2e94a",
+        "manifest_sha256": "909fce31c65d5679e91fa1ec1847f5a8aaa585624c59adf138e2c865b40a5b75",
+        "audit_sha256": "af2bb2453763a947f34186c619121d05a6ea530eb73d2ba40bee85f9b0d5dc22",
+        "purpose": "reused development data; not fresh replication"
+      }
+    },
+    {
+      "name": "correlated_gaussian_d5_p24_seed2401_search3203",
+      "case": "correlated_gaussian",
+      "dimension": 5,
+      "p": 24,
+      "seed": 2401,
+      "search_seed": 3203,
+      "n_fit": 600,
+      "n_search": 600,
+      "n_validation": 600,
+      "n_test": 600,
+      "max_size": 10,
+      "budget": 256,
+      "methods": [
+        "moment_best",
+        "moment_first",
+        "kernel_best",
+        "kernel_first"
+      ],
+      "data_source": {
+        "directory": "C:\\Users\\Peter\\Desktop\\Github\\ATOMIC_Clustering\\results\\research_radial_search\\20261020T174212_534139Z\\correlated_gaussian_d5_p24_seed2401_search3203",
+        "splits_sha256": "f97c8cc1dcbe41b3b2a7742823acbc63ee94822d9949cccdc79fa26a44372fdb",
+        "job_sha256": "dabde78f1b8b3c0ab18a787c3f3da611457e432c94581ef1705b9132dd51771c",
+        "manifest_sha256": "909fce31c65d5679e91fa1ec1847f5a8aaa585624c59adf138e2c865b40a5b75",
+        "audit_sha256": "af2bb2453763a947f34186c619121d05a6ea530eb73d2ba40bee85f9b0d5dc22",
+        "purpose": "reused development data; not fresh replication"
+      }
+    },
+    {
+      "name": "student_t_d5_p24_seed2401_search3203",
+      "case": "student_t",
+      "dimension": 5,
+      "p": 24,
+      "seed": 2401,
+      "search_seed": 3203,
+      "n_fit": 600,
+      "n_search": 600,
+      "n_validation": 600,
+      "n_test": 600,
+      "max_size": 10,
+      "budget": 256,
+      "methods": [
+        "moment_best",
+        "moment_first",
+        "kernel_best",
+        "kernel_first"
+      ],
+      "data_source": {
+        "directory": "C:\\Users\\Peter\\Desktop\\Github\\ATOMIC_Clustering\\results\\research_radial_search\\20261020T174212_534139Z\\student_t_d5_p24_seed2401_search3203",
+        "splits_sha256": "5ec1fdb7d3366034a3a5a09d0300a85064ccb19ac29b91950d13221b2daabcac",
+        "job_sha256": "024857fb4b8fddc1e2deca487a5c82e340f23582c6aec397fb650d8b0e4a5a06",
+        "manifest_sha256": "909fce31c65d5679e91fa1ec1847f5a8aaa585624c59adf138e2c865b40a5b75",
+        "audit_sha256": "af2bb2453763a947f34186c619121d05a6ea530eb73d2ba40bee85f9b0d5dc22",
+        "purpose": "reused development data; not fresh replication"
+      }
+    },
+    {
+      "name": "common_center_scale_mixture_d5_p24_seed2401_search3203",
+      "case": "common_center_scale_mixture",
+      "dimension": 5,
+      "p": 24,
+      "seed": 2401,
+      "search_seed": 3203,
+      "n_fit": 600,
+      "n_search": 600,
+      "n_validation": 600,
+      "n_test": 600,
+      "max_size": 10,
+      "budget": 256,
+      "methods": [
+        "moment_best",
+        "moment_first",
+        "kernel_best",
+        "kernel_first"
+      ],
+      "data_source": {
+        "directory": "C:\\Users\\Peter\\Desktop\\Github\\ATOMIC_Clustering\\results\\research_radial_search\\20261020T174212_534139Z\\common_center_scale_mixture_d5_p24_seed2401_search3203",
+        "splits_sha256": "808fe5ec2f177ebb52dec0bd0172690b5b193bb20e48d80f04196ece4752dd13",
+        "job_sha256": "b661b6f9378f3d4bd8bd2a03845eceb4f168e525da459014ddef0dd75578e569",
+        "manifest_sha256": "909fce31c65d5679e91fa1ec1847f5a8aaa585624c59adf138e2c865b40a5b75",
+        "audit_sha256": "af2bb2453763a947f34186c619121d05a6ea530eb73d2ba40bee85f9b0d5dc22",
+        "purpose": "reused development data; not fresh replication"
+      }
+    },
+    {
+      "name": "mean_shift_d3_p24_seed2401_search3203",
+      "case": "mean_shift",
+      "dimension": 3,
+      "p": 24,
+      "seed": 2401,
+      "search_seed": 3203,
+      "n_fit": 600,
+      "n_search": 600,
+      "n_validation": 600,
+      "n_test": 600,
+      "max_size": 10,
+      "budget": 256,
+      "methods": [
+        "moment_best",
+        "moment_first",
+        "kernel_best",
+        "kernel_first"
+      ],
+      "data_source": {
+        "directory": "C:\\Users\\Peter\\Desktop\\Github\\ATOMIC_Clustering\\results\\research_radial_search\\20261020T174212_534139Z\\mean_shift_d3_p24_seed2401_search3203",
+        "splits_sha256": "42c6f2ae23d0f4bd3f1e8c638b68d89b7fd03711e2e40fea2c8e8fca98791ebe",
+        "job_sha256": "82d9a5a43a23a0c348f69d9caed7602c3555fc472605d009fe5885f371447bed",
+        "manifest_sha256": "909fce31c65d5679e91fa1ec1847f5a8aaa585624c59adf138e2c865b40a5b75",
+        "audit_sha256": "af2bb2453763a947f34186c619121d05a6ea530eb73d2ba40bee85f9b0d5dc22",
+        "purpose": "reused development data; not fresh replication"
+      }
+    },
+    {
+      "name": "shells_d2_p24_seed2411_search3217",
+      "case": "shells",
+      "dimension": 2,
+      "p": 24,
+      "seed": 2411,
+      "search_seed": 3217,
+      "n_fit": 600,
+      "n_search": 600,
+      "n_validation": 600,
+      "n_test": 600,
+      "max_size": 10,
+      "budget": 256,
+      "methods": [
+        "moment_best",
+        "moment_first",
+        "kernel_best",
+        "kernel_first"
+      ],
+      "data_source": {
+        "directory": "C:\\Users\\Peter\\Desktop\\Github\\ATOMIC_Clustering\\results\\research_radial_search\\20261020T174212_534139Z\\shells_d2_p24_seed2411_search3217",
+        "splits_sha256": "0476ee3c107b8b90989090a260759130e73a85785347a141d6e50570826b354b",
+        "job_sha256": "ea2acb64a5afeeae4672171e9cde80df2d2de024fc50e2dea5c935fb70c500b5",
+        "manifest_sha256": "909fce31c65d5679e91fa1ec1847f5a8aaa585624c59adf138e2c865b40a5b75",
+        "audit_sha256": "af2bb2453763a947f34186c619121d05a6ea530eb73d2ba40bee85f9b0d5dc22",
+        "purpose": "reused development data; not fresh replication"
+      }
+    },
+    {
+      "name": "shells_d3_p24_seed2411_search3217",
+      "case": "shells",
+      "dimension": 3,
+      "p": 24,
+      "seed": 2411,
+      "search_seed": 3217,
+      "n_fit": 600,
+      "n_search": 600,
+      "n_validation": 600,
+      "n_test": 600,
+      "max_size": 10,
+      "budget": 256,
+      "methods": [
+        "moment_best",
+        "moment_first",
+        "kernel_best",
+        "kernel_first"
+      ],
+      "data_source": {
+        "directory": "C:\\Users\\Peter\\Desktop\\Github\\ATOMIC_Clustering\\results\\research_radial_search\\20261020T174212_534139Z\\shells_d3_p24_seed2411_search3217",
+        "splits_sha256": "c74273788ff4277a8007bf791407cb7b2282841416f51e3698e873844b445b53",
+        "job_sha256": "a88eb997aa17274eec6b2a57045a9d1bb5cb91619bc6a41b96b077cb65e8cd0b",
+        "manifest_sha256": "909fce31c65d5679e91fa1ec1847f5a8aaa585624c59adf138e2c865b40a5b75",
+        "audit_sha256": "af2bb2453763a947f34186c619121d05a6ea530eb73d2ba40bee85f9b0d5dc22",
+        "purpose": "reused development data; not fresh replication"
+      }
+    },
+    {
+      "name": "shells_d4_p24_seed2411_search3217",
+      "case": "shells",
+      "dimension": 4,
+      "p": 24,
+      "seed": 2411,
+      "search_seed": 3217,
+      "n_fit": 600,
+      "n_search": 600,
+      "n_validation": 600,
+      "n_test": 600,
+      "max_size": 10,
+      "budget": 256,
+      "methods": [
+        "moment_best",
+        "moment_first",
+        "kernel_best",
+        "kernel_first"
+      ],
+      "data_source": {
+        "directory": "C:\\Users\\Peter\\Desktop\\Github\\ATOMIC_Clustering\\results\\research_radial_search\\20261020T174212_534139Z\\shells_d4_p24_seed2411_search3217",
+        "splits_sha256": "fdcecefc41656a0b5c0170232e429030a35bf815f5a6a03269fed1a2feee43fa",
+        "job_sha256": "398eed8c309495c9194692a850c25e34c84f62568a533891e1d48236a09bfc50",
+        "manifest_sha256": "909fce31c65d5679e91fa1ec1847f5a8aaa585624c59adf138e2c865b40a5b75",
+        "audit_sha256": "af2bb2453763a947f34186c619121d05a6ea530eb73d2ba40bee85f9b0d5dc22",
+        "purpose": "reused development data; not fresh replication"
+      }
+    },
+    {
+      "name": "shells_d5_p24_seed2411_search3217",
+      "case": "shells",
+      "dimension": 5,
+      "p": 24,
+      "seed": 2411,
+      "search_seed": 3217,
+      "n_fit": 600,
+      "n_search": 600,
+      "n_validation": 600,
+      "n_test": 600,
+      "max_size": 10,
+      "budget": 256,
+      "methods": [
+        "moment_best",
+        "moment_first",
+        "kernel_best",
+        "kernel_first"
+      ],
+      "data_source": {
+        "directory": "C:\\Users\\Peter\\Desktop\\Github\\ATOMIC_Clustering\\results\\research_radial_search\\20261020T174212_534139Z\\shells_d5_p24_seed2411_search3217",
+        "splits_sha256": "752dc14cfc9d365f21c24505b5e83a3c38ece79c7c4aa50839695a7cb0781707",
+        "job_sha256": "460c10a6cb78e37840676c860402ee38097410845dec892454b241ca2ef9303d",
+        "manifest_sha256": "909fce31c65d5679e91fa1ec1847f5a8aaa585624c59adf138e2c865b40a5b75",
+        "audit_sha256": "af2bb2453763a947f34186c619121d05a6ea530eb73d2ba40bee85f9b0d5dc22",
+        "purpose": "reused development data; not fresh replication"
+      }
+    },
+    {
+      "name": "shells_d8_p24_seed2411_search3217",
+      "case": "shells",
+      "dimension": 8,
+      "p": 24,
+      "seed": 2411,
+      "search_seed": 3217,
+      "n_fit": 600,
+      "n_search": 600,
+      "n_validation": 600,
+      "n_test": 600,
+      "max_size": 10,
+      "budget": 256,
+      "methods": [
+        "moment_best",
+        "moment_first",
+        "kernel_best",
+        "kernel_first"
+      ],
+      "data_source": {
+        "directory": "C:\\Users\\Peter\\Desktop\\Github\\ATOMIC_Clustering\\results\\research_radial_search\\20261020T174212_534139Z\\shells_d8_p24_seed2411_search3217",
+        "splits_sha256": "6e480ec10aa1e945d171872cf41053bec3b5c1cc84ffdc42158f4f22c7f1a843",
+        "job_sha256": "90c11c88ec3b66208d42e070e92fd24171258fdca1618f0e3e3b711337832aa3",
+        "manifest_sha256": "909fce31c65d5679e91fa1ec1847f5a8aaa585624c59adf138e2c865b40a5b75",
+        "audit_sha256": "af2bb2453763a947f34186c619121d05a6ea530eb73d2ba40bee85f9b0d5dc22",
+        "purpose": "reused development data; not fresh replication"
+      }
+    },
+    {
+      "name": "single_shell_d2_p24_seed2411_search3217",
+      "case": "single_shell",
+      "dimension": 2,
+      "p": 24,
+      "seed": 2411,
+      "search_seed": 3217,
+      "n_fit": 600,
+      "n_search": 600,
+      "n_validation": 600,
+      "n_test": 600,
+      "max_size": 10,
+      "budget": 256,
+      "methods": [
+        "moment_best",
+        "moment_first",
+        "kernel_best",
+        "kernel_first"
+      ],
+      "data_source": {
+        "directory": "C:\\Users\\Peter\\Desktop\\Github\\ATOMIC_Clustering\\results\\research_radial_search\\20261020T174212_534139Z\\single_shell_d2_p24_seed2411_search3217",
+        "splits_sha256": "d585dd5817bb4ac3c12f1299873cca19991f79aaf695e7719dd7ff7ba74afc78",
+        "job_sha256": "fe294a21ec354a515b79fe06a520be2d75f8ea44573960bb08183d31587c51bd",
+        "manifest_sha256": "909fce31c65d5679e91fa1ec1847f5a8aaa585624c59adf138e2c865b40a5b75",
+        "audit_sha256": "af2bb2453763a947f34186c619121d05a6ea530eb73d2ba40bee85f9b0d5dc22",
+        "purpose": "reused development data; not fresh replication"
+      }
+    },
+    {
+      "name": "single_shell_d5_p24_seed2411_search3217",
+      "case": "single_shell",
+      "dimension": 5,
+      "p": 24,
+      "seed": 2411,
+      "search_seed": 3217,
+      "n_fit": 600,
+      "n_search": 600,
+      "n_validation": 600,
+      "n_test": 600,
+      "max_size": 10,
+      "budget": 256,
+      "methods": [
+        "moment_best",
+        "moment_first",
+        "kernel_best",
+        "kernel_first"
+      ],
+      "data_source": {
+        "directory": "C:\\Users\\Peter\\Desktop\\Github\\ATOMIC_Clustering\\results\\research_radial_search\\20261020T174212_534139Z\\single_shell_d5_p24_seed2411_search3217",
+        "splits_sha256": "5baf3214d3101a441c00c7ee161077fcdf81e00bca991331f76cd9e4a3dfa298",
+        "job_sha256": "bd67b6c3db0d3ceb9c6e456b2f65d6c03693b2aad015ea3ed61866c5ecf68d9c",
+        "manifest_sha256": "909fce31c65d5679e91fa1ec1847f5a8aaa585624c59adf138e2c865b40a5b75",
+        "audit_sha256": "af2bb2453763a947f34186c619121d05a6ea530eb73d2ba40bee85f9b0d5dc22",
+        "purpose": "reused development data; not fresh replication"
+      }
+    },
+    {
+      "name": "independent_gaussian_d5_p24_seed2411_search3217",
+      "case": "independent_gaussian",
+      "dimension": 5,
+      "p": 24,
+      "seed": 2411,
+      "search_seed": 3217,
+      "n_fit": 600,
+      "n_search": 600,
+      "n_validation": 600,
+      "n_test": 600,
+      "max_size": 10,
+      "budget": 256,
+      "methods": [
+        "moment_best",
+        "moment_first",
+        "kernel_best",
+        "kernel_first"
+      ],
+      "data_source": {
+        "directory": "C:\\Users\\Peter\\Desktop\\Github\\ATOMIC_Clustering\\results\\research_radial_search\\20261020T174212_534139Z\\independent_gaussian_d5_p24_seed2411_search3217",
+        "splits_sha256": "70343c16834a711c544adb43935d17bd0828513399e37a5a16d803a286be1e42",
+        "job_sha256": "f7eede18051dd451bb1801dd1c382234d0167d474eb6e084932b2d74c0465873",
+        "manifest_sha256": "909fce31c65d5679e91fa1ec1847f5a8aaa585624c59adf138e2c865b40a5b75",
+        "audit_sha256": "af2bb2453763a947f34186c619121d05a6ea530eb73d2ba40bee85f9b0d5dc22",
+        "purpose": "reused development data; not fresh replication"
+      }
+    },
+    {
+      "name": "correlated_gaussian_d5_p24_seed2411_search3217",
+      "case": "correlated_gaussian",
+      "dimension": 5,
+      "p": 24,
+      "seed": 2411,
+      "search_seed": 3217,
+      "n_fit": 600,
+      "n_search": 600,
+      "n_validation": 600,
+      "n_test": 600,
+      "max_size": 10,
+      "budget": 256,
+      "methods": [
+        "moment_best",
+        "moment_first",
+        "kernel_best",
+        "kernel_first"
+      ],
+      "data_source": {
+        "directory": "C:\\Users\\Peter\\Desktop\\Github\\ATOMIC_Clustering\\results\\research_radial_search\\20261020T174212_534139Z\\correlated_gaussian_d5_p24_seed2411_search3217",
+        "splits_sha256": "0529750a615e382363ed3a1ea100739f84917dad51b94d32eb6b00e65c08c941",
+        "job_sha256": "3053bc4855228bcd4b87b2b69b6df03202c5cf3ef1af011cf94e5c3babed165d",
+        "manifest_sha256": "909fce31c65d5679e91fa1ec1847f5a8aaa585624c59adf138e2c865b40a5b75",
+        "audit_sha256": "af2bb2453763a947f34186c619121d05a6ea530eb73d2ba40bee85f9b0d5dc22",
+        "purpose": "reused development data; not fresh replication"
+      }
+    },
+    {
+      "name": "student_t_d5_p24_seed2411_search3217",
+      "case": "student_t",
+      "dimension": 5,
+      "p": 24,
+      "seed": 2411,
+      "search_seed": 3217,
+      "n_fit": 600,
+      "n_search": 600,
+      "n_validation": 600,
+      "n_test": 600,
+      "max_size": 10,
+      "budget": 256,
+      "methods": [
+        "moment_best",
+        "moment_first",
+        "kernel_best",
+        "kernel_first"
+      ],
+      "data_source": {
+        "directory": "C:\\Users\\Peter\\Desktop\\Github\\ATOMIC_Clustering\\results\\research_radial_search\\20261020T174212_534139Z\\student_t_d5_p24_seed2411_search3217",
+        "splits_sha256": "999ab0a701b95b636c38b37b4cf43a43e28de04c19c9c4464d3b23d389c61f85",
+        "job_sha256": "397201c27d8400c1392326bb32d041b820ac6f2fada838f93bf87a6b9abfe086",
+        "manifest_sha256": "909fce31c65d5679e91fa1ec1847f5a8aaa585624c59adf138e2c865b40a5b75",
+        "audit_sha256": "af2bb2453763a947f34186c619121d05a6ea530eb73d2ba40bee85f9b0d5dc22",
+        "purpose": "reused development data; not fresh replication"
+      }
+    },
+    {
+      "name": "common_center_scale_mixture_d5_p24_seed2411_search3217",
+      "case": "common_center_scale_mixture",
+      "dimension": 5,
+      "p": 24,
+      "seed": 2411,
+      "search_seed": 3217,
+      "n_fit": 600,
+      "n_search": 600,
+      "n_validation": 600,
+      "n_test": 600,
+      "max_size": 10,
+      "budget": 256,
+      "methods": [
+        "moment_best",
+        "moment_first",
+        "kernel_best",
+        "kernel_first"
+      ],
+      "data_source": {
+        "directory": "C:\\Users\\Peter\\Desktop\\Github\\ATOMIC_Clustering\\results\\research_radial_search\\20261020T174212_534139Z\\common_center_scale_mixture_d5_p24_seed2411_search3217",
+        "splits_sha256": "6d95d8db9976493fad0a93899f3085c5c11109e57a66790916072906e7ee1f85",
+        "job_sha256": "63e1bb3b388e4d9127781b8ffa168763db7ce5168dd3bb44e3f3d358dfa1812c",
+        "manifest_sha256": "909fce31c65d5679e91fa1ec1847f5a8aaa585624c59adf138e2c865b40a5b75",
+        "audit_sha256": "af2bb2453763a947f34186c619121d05a6ea530eb73d2ba40bee85f9b0d5dc22",
+        "purpose": "reused development data; not fresh replication"
+      }
+    },
+    {
+      "name": "mean_shift_d3_p24_seed2411_search3217",
+      "case": "mean_shift",
+      "dimension": 3,
+      "p": 24,
+      "seed": 2411,
+      "search_seed": 3217,
+      "n_fit": 600,
+      "n_search": 600,
+      "n_validation": 600,
+      "n_test": 600,
+      "max_size": 10,
+      "budget": 256,
+      "methods": [
+        "moment_best",
+        "moment_first",
+        "kernel_best",
+        "kernel_first"
+      ],
+      "data_source": {
+        "directory": "C:\\Users\\Peter\\Desktop\\Github\\ATOMIC_Clustering\\results\\research_radial_search\\20261020T174212_534139Z\\mean_shift_d3_p24_seed2411_search3217",
+        "splits_sha256": "8ffd7372a39a1c0a8673a5f4904e90dbb6d62637b47be64987bebf86dc329bc8",
+        "job_sha256": "eea2ccd67c6eeb21339781c6920ab293b74ce6f11a8ccfa7b67d3235ab5f3eff",
+        "manifest_sha256": "909fce31c65d5679e91fa1ec1847f5a8aaa585624c59adf138e2c865b40a5b75",
+        "audit_sha256": "af2bb2453763a947f34186c619121d05a6ea530eb73d2ba40bee85f9b0d5dc22",
+        "purpose": "reused development data; not fresh replication"
+      }
+    },
+    {
+      "name": "shells_d2_p24_seed2423_search3221",
+      "case": "shells",
+      "dimension": 2,
+      "p": 24,
+      "seed": 2423,
+      "search_seed": 3221,
+      "n_fit": 600,
+      "n_search": 600,
+      "n_validation": 600,
+      "n_test": 600,
+      "max_size": 10,
+      "budget": 256,
+      "methods": [
+        "moment_best",
+        "moment_first",
+        "kernel_best",
+        "kernel_first"
+      ],
+      "data_source": {
+        "directory": "C:\\Users\\Peter\\Desktop\\Github\\ATOMIC_Clustering\\results\\research_radial_search\\20261020T174212_534139Z\\shells_d2_p24_seed2423_search3221",
+        "splits_sha256": "516725cf29566d8114a0969cbb5929f37cb1dc84e8520398c7832c6e46829bc5",
+        "job_sha256": "aa2af9fd81aff9fd36be1d0633f2f18d21561c51debac8137850baac107140b6",
+        "manifest_sha256": "909fce31c65d5679e91fa1ec1847f5a8aaa585624c59adf138e2c865b40a5b75",
+        "audit_sha256": "af2bb2453763a947f34186c619121d05a6ea530eb73d2ba40bee85f9b0d5dc22",
+        "purpose": "reused development data; not fresh replication"
+      }
+    },
+    {
+      "name": "shells_d3_p24_seed2423_search3221",
+      "case": "shells",
+      "dimension": 3,
+      "p": 24,
+      "seed": 2423,
+      "search_seed": 3221,
+      "n_fit": 600,
+      "n_search": 600,
+      "n_validation": 600,
+      "n_test": 600,
+      "max_size": 10,
+      "budget": 256,
+      "methods": [
+        "moment_best",
+        "moment_first",
+        "kernel_best",
+        "kernel_first"
+      ],
+      "data_source": {
+        "directory": "C:\\Users\\Peter\\Desktop\\Github\\ATOMIC_Clustering\\results\\research_radial_search\\20261020T174212_534139Z\\shells_d3_p24_seed2423_search3221",
+        "splits_sha256": "3fbc440695f55b81ac6334de5e343f806b61e0dd3469847e948fea1d8d20897c",
+        "job_sha256": "e27ca07761d13c7b16e54446822f9e643c2c7d509a049cb4dea849d2b7b5d052",
+        "manifest_sha256": "909fce31c65d5679e91fa1ec1847f5a8aaa585624c59adf138e2c865b40a5b75",
+        "audit_sha256": "af2bb2453763a947f34186c619121d05a6ea530eb73d2ba40bee85f9b0d5dc22",
+        "purpose": "reused development data; not fresh replication"
+      }
+    },
+    {
+      "name": "shells_d4_p24_seed2423_search3221",
+      "case": "shells",
+      "dimension": 4,
+      "p": 24,
+      "seed": 2423,
+      "search_seed": 3221,
+      "n_fit": 600,
+      "n_search": 600,
+      "n_validation": 600,
+      "n_test": 600,
+      "max_size": 10,
+      "budget": 256,
+      "methods": [
+        "moment_best",
+        "moment_first",
+        "kernel_best",
+        "kernel_first"
+      ],
+      "data_source": {
+        "directory": "C:\\Users\\Peter\\Desktop\\Github\\ATOMIC_Clustering\\results\\research_radial_search\\20261020T174212_534139Z\\shells_d4_p24_seed2423_search3221",
+        "splits_sha256": "21127212d2e9518b977ccba4ccb1d8b5d01f673a8c1090ee2667839ddaecf316",
+        "job_sha256": "1528ef743f79ad71b08da85c787d46e18f291c49a932afc9d407f651a723a4ab",
+        "manifest_sha256": "909fce31c65d5679e91fa1ec1847f5a8aaa585624c59adf138e2c865b40a5b75",
+        "audit_sha256": "af2bb2453763a947f34186c619121d05a6ea530eb73d2ba40bee85f9b0d5dc22",
+        "purpose": "reused development data; not fresh replication"
+      }
+    },
+    {
+      "name": "shells_d5_p24_seed2423_search3221",
+      "case": "shells",
+      "dimension": 5,
+      "p": 24,
+      "seed": 2423,
+      "search_seed": 3221,
+      "n_fit": 600,
+      "n_search": 600,
+      "n_validation": 600,
+      "n_test": 600,
+      "max_size": 10,
+      "budget": 256,
+      "methods": [
+        "moment_best",
+        "moment_first",
+        "kernel_best",
+        "kernel_first"
+      ],
+      "data_source": {
+        "directory": "C:\\Users\\Peter\\Desktop\\Github\\ATOMIC_Clustering\\results\\research_radial_search\\20261020T174212_534139Z\\shells_d5_p24_seed2423_search3221",
+        "splits_sha256": "12f247cc2f1eb64e107988c8b128a8ccf6446ef318a03807818e0b33aae853f5",
+        "job_sha256": "4ab0e9a2bd344469c8c78a830a71bcca8f7f8cead785aad61d6c9cc34ba0a350",
+        "manifest_sha256": "909fce31c65d5679e91fa1ec1847f5a8aaa585624c59adf138e2c865b40a5b75",
+        "audit_sha256": "af2bb2453763a947f34186c619121d05a6ea530eb73d2ba40bee85f9b0d5dc22",
+        "purpose": "reused development data; not fresh replication"
+      }
+    },
+    {
+      "name": "shells_d8_p24_seed2423_search3221",
+      "case": "shells",
+      "dimension": 8,
+      "p": 24,
+      "seed": 2423,
+      "search_seed": 3221,
+      "n_fit": 600,
+      "n_search": 600,
+      "n_validation": 600,
+      "n_test": 600,
+      "max_size": 10,
+      "budget": 256,
+      "methods": [
+        "moment_best",
+        "moment_first",
+        "kernel_best",
+        "kernel_first"
+      ],
+      "data_source": {
+        "directory": "C:\\Users\\Peter\\Desktop\\Github\\ATOMIC_Clustering\\results\\research_radial_search\\20261020T174212_534139Z\\shells_d8_p24_seed2423_search3221",
+        "splits_sha256": "92f99c99bc3831a8948cf30ac500859e950f82a24effcd5559580143345cfd55",
+        "job_sha256": "0cf470a60d1cdf13f26fdf4c09f9dd9defe27c7ba78942b649abc41a3d529be7",
+        "manifest_sha256": "909fce31c65d5679e91fa1ec1847f5a8aaa585624c59adf138e2c865b40a5b75",
+        "audit_sha256": "af2bb2453763a947f34186c619121d05a6ea530eb73d2ba40bee85f9b0d5dc22",
+        "purpose": "reused development data; not fresh replication"
+      }
+    },
+    {
+      "name": "single_shell_d2_p24_seed2423_search3221",
+      "case": "single_shell",
+      "dimension": 2,
+      "p": 24,
+      "seed": 2423,
+      "search_seed": 3221,
+      "n_fit": 600,
+      "n_search": 600,
+      "n_validation": 600,
+      "n_test": 600,
+      "max_size": 10,
+      "budget": 256,
+      "methods": [
+        "moment_best",
+        "moment_first",
+        "kernel_best",
+        "kernel_first"
+      ],
+      "data_source": {
+        "directory": "C:\\Users\\Peter\\Desktop\\Github\\ATOMIC_Clustering\\results\\research_radial_search\\20261020T174212_534139Z\\single_shell_d2_p24_seed2423_search3221",
+        "splits_sha256": "8ebb2ee6f85b15a4ed41fa14c6f836779e7c4e02f4791e9848d2f02bd394e1f9",
+        "job_sha256": "d2a0d7e10ef891110a21f32e5f1aa24591747d8c69e1fce36c17a7192e525543",
+        "manifest_sha256": "909fce31c65d5679e91fa1ec1847f5a8aaa585624c59adf138e2c865b40a5b75",
+        "audit_sha256": "af2bb2453763a947f34186c619121d05a6ea530eb73d2ba40bee85f9b0d5dc22",
+        "purpose": "reused development data; not fresh replication"
+      }
+    },
+    {
+      "name": "single_shell_d5_p24_seed2423_search3221",
+      "case": "single_shell",
+      "dimension": 5,
+      "p": 24,
+      "seed": 2423,
+      "search_seed": 3221,
+      "n_fit": 600,
+      "n_search": 600,
+      "n_validation": 600,
+      "n_test": 600,
+      "max_size": 10,
+      "budget": 256,
+      "methods": [
+        "moment_best",
+        "moment_first",
+        "kernel_best",
+        "kernel_first"
+      ],
+      "data_source": {
+        "directory": "C:\\Users\\Peter\\Desktop\\Github\\ATOMIC_Clustering\\results\\research_radial_search\\20261020T174212_534139Z\\single_shell_d5_p24_seed2423_search3221",
+        "splits_sha256": "a101a238310d65da70277877f290760496c8cdc8686c076065d2a527c0dccb43",
+        "job_sha256": "edafa09bfb8371a749b1431e6e83ca30ad753c862288ba2cd48b55cb1e06c068",
+        "manifest_sha256": "909fce31c65d5679e91fa1ec1847f5a8aaa585624c59adf138e2c865b40a5b75",
+        "audit_sha256": "af2bb2453763a947f34186c619121d05a6ea530eb73d2ba40bee85f9b0d5dc22",
+        "purpose": "reused development data; not fresh replication"
+      }
+    },
+    {
+      "name": "independent_gaussian_d5_p24_seed2423_search3221",
+      "case": "independent_gaussian",
+      "dimension": 5,
+      "p": 24,
+      "seed": 2423,
+      "search_seed": 3221,
+      "n_fit": 600,
+      "n_search": 600,
+      "n_validation": 600,
+      "n_test": 600,
+      "max_size": 10,
+      "budget": 256,
+      "methods": [
+        "moment_best",
+        "moment_first",
+        "kernel_best",
+        "kernel_first"
+      ],
+      "data_source": {
+        "directory": "C:\\Users\\Peter\\Desktop\\Github\\ATOMIC_Clustering\\results\\research_radial_search\\20261020T174212_534139Z\\independent_gaussian_d5_p24_seed2423_search3221",
+        "splits_sha256": "eb684572681e5a04c1c17a571f17b9d9cf37eb3272403053c13b10965d51cabc",
+        "job_sha256": "36c9010eea0825aad4bdee7cb96433e455944f5432884b3331cb2702476d915c",
+        "manifest_sha256": "909fce31c65d5679e91fa1ec1847f5a8aaa585624c59adf138e2c865b40a5b75",
+        "audit_sha256": "af2bb2453763a947f34186c619121d05a6ea530eb73d2ba40bee85f9b0d5dc22",
+        "purpose": "reused development data; not fresh replication"
+      }
+    },
+    {
+      "name": "correlated_gaussian_d5_p24_seed2423_search3221",
+      "case": "correlated_gaussian",
+      "dimension": 5,
+      "p": 24,
+      "seed": 2423,
+      "search_seed": 3221,
+      "n_fit": 600,
+      "n_search": 600,
+      "n_validation": 600,
+      "n_test": 600,
+      "max_size": 10,
+      "budget": 256,
+      "methods": [
+        "moment_best",
+        "moment_first",
+        "kernel_best",
+        "kernel_first"
+      ],
+      "data_source": {
+        "directory": "C:\\Users\\Peter\\Desktop\\Github\\ATOMIC_Clustering\\results\\research_radial_search\\20261020T174212_534139Z\\correlated_gaussian_d5_p24_seed2423_search3221",
+        "splits_sha256": "73407bff76cfb917492134461b24ca25641431958f8bac25c81620cd589e5c8d",
+        "job_sha256": "ad61ebfc4a96f1d6ca73d4f36f45e40a4559e63e477a73bbd3a67ed8eb335107",
+        "manifest_sha256": "909fce31c65d5679e91fa1ec1847f5a8aaa585624c59adf138e2c865b40a5b75",
+        "audit_sha256": "af2bb2453763a947f34186c619121d05a6ea530eb73d2ba40bee85f9b0d5dc22",
+        "purpose": "reused development data; not fresh replication"
+      }
+    },
+    {
+      "name": "student_t_d5_p24_seed2423_search3221",
+      "case": "student_t",
+      "dimension": 5,
+      "p": 24,
+      "seed": 2423,
+      "search_seed": 3221,
+      "n_fit": 600,
+      "n_search": 600,
+      "n_validation": 600,
+      "n_test": 600,
+      "max_size": 10,
+      "budget": 256,
+      "methods": [
+        "moment_best",
+        "moment_first",
+        "kernel_best",
+        "kernel_first"
+      ],
+      "data_source": {
+        "directory": "C:\\Users\\Peter\\Desktop\\Github\\ATOMIC_Clustering\\results\\research_radial_search\\20261020T174212_534139Z\\student_t_d5_p24_seed2423_search3221",
+        "splits_sha256": "ab721408a2d84b0195d425466c707802b7aaa9688d5096b4bf58f0a8f305089d",
+        "job_sha256": "0d4b03dd83bdc8639ad3a1c4a6ebd9d8fb9e8d290f6ed070e0c61c8b4db5e643",
+        "manifest_sha256": "909fce31c65d5679e91fa1ec1847f5a8aaa585624c59adf138e2c865b40a5b75",
+        "audit_sha256": "af2bb2453763a947f34186c619121d05a6ea530eb73d2ba40bee85f9b0d5dc22",
+        "purpose": "reused development data; not fresh replication"
+      }
+    },
+    {
+      "name": "common_center_scale_mixture_d5_p24_seed2423_search3221",
+      "case": "common_center_scale_mixture",
+      "dimension": 5,
+      "p": 24,
+      "seed": 2423,
+      "search_seed": 3221,
+      "n_fit": 600,
+      "n_search": 600,
+      "n_validation": 600,
+      "n_test": 600,
+      "max_size": 10,
+      "budget": 256,
+      "methods": [
+        "moment_best",
+        "moment_first",
+        "kernel_best",
+        "kernel_first"
+      ],
+      "data_source": {
+        "directory": "C:\\Users\\Peter\\Desktop\\Github\\ATOMIC_Clustering\\results\\research_radial_search\\20261020T174212_534139Z\\common_center_scale_mixture_d5_p24_seed2423_search3221",
+        "splits_sha256": "33cf2b42f53b968e89156c54df613b888f3e2b3857c7eeb43e01f5e0ed229836",
+        "job_sha256": "7c1e2f2876bc84cb9875f33fc06dc2f1540d7ed91e3f46b07dca2ee8133e42f4",
+        "manifest_sha256": "909fce31c65d5679e91fa1ec1847f5a8aaa585624c59adf138e2c865b40a5b75",
+        "audit_sha256": "af2bb2453763a947f34186c619121d05a6ea530eb73d2ba40bee85f9b0d5dc22",
+        "purpose": "reused development data; not fresh replication"
+      }
+    },
+    {
+      "name": "mean_shift_d3_p24_seed2423_search3221",
+      "case": "mean_shift",
+      "dimension": 3,
+      "p": 24,
+      "seed": 2423,
+      "search_seed": 3221,
+      "n_fit": 600,
+      "n_search": 600,
+      "n_validation": 600,
+      "n_test": 600,
+      "max_size": 10,
+      "budget": 256,
+      "methods": [
+        "moment_best",
+        "moment_first",
+        "kernel_best",
+        "kernel_first"
+      ],
+      "data_source": {
+        "directory": "C:\\Users\\Peter\\Desktop\\Github\\ATOMIC_Clustering\\results\\research_radial_search\\20261020T174212_534139Z\\mean_shift_d3_p24_seed2423_search3221",
+        "splits_sha256": "f403817d32221c9c80ad06d50a59302adc091485fe017467eb510d587ea6014b",
+        "job_sha256": "df8abbedfc35e0656b30f90709b0154e0daee4298ee0e75068b8ef30a8d83a63",
+        "manifest_sha256": "909fce31c65d5679e91fa1ec1847f5a8aaa585624c59adf138e2c865b40a5b75",
+        "audit_sha256": "af2bb2453763a947f34186c619121d05a6ea530eb73d2ba40bee85f9b0d5dc22",
+        "purpose": "reused development data; not fresh replication"
+      }
+    }
+  ],
+  "completed": [
+    "shells_d2_p24_seed2401_search3203",
+    "shells_d3_p24_seed2401_search3203",
+    "shells_d4_p24_seed2401_search3203",
+    "shells_d5_p24_seed2401_search3203",
+    "shells_d8_p24_seed2401_search3203",
+    "single_shell_d2_p24_seed2401_search3203",
+    "single_shell_d5_p24_seed2401_search3203",
+    "independent_gaussian_d5_p24_seed2401_search3203",
+    "correlated_gaussian_d5_p24_seed2401_search3203",
+    "student_t_d5_p24_seed2401_search3203",
+    "common_center_scale_mixture_d5_p24_seed2401_search3203",
+    "mean_shift_d3_p24_seed2401_search3203",
+    "shells_d2_p24_seed2411_search3217",
+    "shells_d3_p24_seed2411_search3217",
+    "shells_d4_p24_seed2411_search3217",
+    "shells_d5_p24_seed2411_search3217",
+    "shells_d8_p24_seed2411_search3217",
+    "single_shell_d2_p24_seed2411_search3217",
+    "single_shell_d5_p24_seed2411_search3217",
+    "independent_gaussian_d5_p24_seed2411_search3217",
+    "correlated_gaussian_d5_p24_seed2411_search3217",
+    "student_t_d5_p24_seed2411_search3217",
+    "common_center_scale_mixture_d5_p24_seed2411_search3217",
+    "mean_shift_d3_p24_seed2411_search3217",
+    "shells_d2_p24_seed2423_search3221",
+    "shells_d3_p24_seed2423_search3221",
+    "shells_d4_p24_seed2423_search3221",
+    "shells_d5_p24_seed2423_search3221",
+    "shells_d8_p24_seed2423_search3221",
+    "single_shell_d2_p24_seed2423_search3221",
+    "single_shell_d5_p24_seed2423_search3221",
+    "independent_gaussian_d5_p24_seed2423_search3221",
+    "correlated_gaussian_d5_p24_seed2423_search3221",
+    "student_t_d5_p24_seed2423_search3221",
+    "common_center_scale_mixture_d5_p24_seed2423_search3221",
+    "mean_shift_d3_p24_seed2423_search3221"
+  ],
+  "current_job": null,
+  "source_sha256": {
+    "atomic_research/radial_panels.py": "0ddf40908b5ae79b5c96db6f314cb8db251bcd1477127010f933f1de01c95dd9",
+    "atomic_research/radial_diagnostics.py": "ba3c9233704ec9421ceda67b91d687af5951bf84e516393e6dc8be4d23e874d3",
+    "atomic_research/radial_search.py": "d2ca8c0f4d0b0403c67aebc9f5db096633bad34c3a6673c11e995f7361bc25e8",
+    "atomic_research/radial_search_experiment.py": "3b2e8d46c17114ce618be093b6640610f4cade3fc554198cea3384b8474d7be8",
+    "atomic_research/feature_dependence.py": "c00629599b4caf850c2759ed1d3cfecb8695561e5e9c16c375d1ffc94f6827df",
+    "scripts/run_research_radial_search.py": "bcde54d46804932f5a68479c53e31112003987fb23d8eece39c66ad514cd9c32",
+    "scripts/run_research_feature_set_ablation.py": "258f2e97e2923197b8941bd52aaf92e3df84d853ad7fc663e9dd1b62e150de21"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "threads": 1,
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "threadpoolctl": "3.6.0"
+  },
+  "scope": "development comparison of feature-set search; no novelty or split-validity guarantee",
+  "selection": "adaptive search block only; validation/test never select a feature set",
+  "oracle_role": "post-search diagnostic only, never injected into discovery",
+  "fit_budget": "same unique radial2 fits per arm; post-selection radial1/oracle fits separate",
+  "development_data": {
+    "source_run": "C:\\Users\\Peter\\Desktop\\Github\\ATOMIC_Clustering\\results\\research_radial_search\\20261020T174212_534139Z",
+    "manifest_sha256": "909fce31c65d5679e91fa1ec1847f5a8aaa585624c59adf138e2c865b40a5b75",
+    "audit_sha256": "af2bb2453763a947f34186c619121d05a6ea530eb73d2ba40bee85f9b0d5dc22",
+    "independent_replication": false
+  },
+  "seconds": 2138.454095199995
+}

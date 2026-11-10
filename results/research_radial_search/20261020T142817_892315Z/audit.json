@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "run": "C:\\Users\\Peter\\Desktop\\Github\\ATOMIC_Clustering\\results\\research_radial_search\\20261020T142817_892315Z",
+  "checks": 27657,
+  "jobs": 6,
+  "methods": 24,
+  "panels": 1152,
+  "errors": [],
+  "notes": [
+    "Current scripts/run_research_radial_search.py differs; audit used saved states and snapshot identity."
+  ],
+  "scope": "saved-state numerical, native-rule, budget, score, frozen-selection, metric and provenance replay; independent normalization for selected/oracle models only; no refitting, no independent proof of search trajectory or leakage absence, no cluster-validity guarantee"
+}

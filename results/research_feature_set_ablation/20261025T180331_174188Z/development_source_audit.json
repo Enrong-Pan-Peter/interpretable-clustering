@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "run": "C:\\Users\\Peter\\Desktop\\Github\\ATOMIC_Clustering\\results\\research_radial_search\\20261020T174212_534139Z",
+  "checks": 793616,
+  "jobs": 36,
+  "methods": 144,
+  "panels": 36864,
+  "errors": [],
+  "notes": [],
+  "scope": "saved-state numerical, native-rule, budget, score, frozen-selection, metric and provenance replay; independent normalization for selected/oracle models only; no refitting, no independent proof of search trajectory or leakage absence, no cluster-validity guarantee"
+}

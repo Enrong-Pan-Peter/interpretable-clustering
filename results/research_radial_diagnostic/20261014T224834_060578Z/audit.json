@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "run": "C:\\Users\\Peter\\Desktop\\Github\\ATOMIC_Clustering\\results\\research_radial_diagnostic\\20261014T224834_060578Z",
+  "checks": 2033,
+  "jobs": 5,
+  "candidates": 40,
+  "errors": [],
+  "notes": [
+    "Current scripts\\run_research_radial_diagnostic.py differs; audited saved snapshot and parameters.",
+    "Current atomic_research\\radial_diagnostics.py differs; audited saved snapshot and parameters."
+  ],
+  "scope": "saved-state numerical, native-rule, metric and selection audit; not an independent experiment or cluster-validity guarantee"
+}

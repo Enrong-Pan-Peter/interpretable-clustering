@@ -1,0 +1,103 @@
+{
+  "status": "complete",
+  "created_utc": "2026-10-14T22:48:34.063475+00:00",
+  "config": {
+    "suite": "smoke",
+    "stage": "candidate-ranking",
+    "seeds": null,
+    "p": null,
+    "n_fit": 120,
+    "n_validation": 120,
+    "n_test": 120,
+    "candidates": 8,
+    "output": "C:\\Users\\Peter\\Desktop\\Github\\ATOMIC_Clustering\\results\\research_radial_diagnostic",
+    "list_only": false
+  },
+  "jobs": [
+    {
+      "name": "shells_d2_p12_seed811",
+      "case": "shells",
+      "dimension": 2,
+      "p": 12,
+      "seed": 811,
+      "n_fit": 120,
+      "n_validation": 120,
+      "n_test": 120,
+      "stage": "candidate-ranking",
+      "candidates": 8
+    },
+    {
+      "name": "shells_d5_p12_seed811",
+      "case": "shells",
+      "dimension": 5,
+      "p": 12,
+      "seed": 811,
+      "n_fit": 120,
+      "n_validation": 120,
+      "n_test": 120,
+      "stage": "candidate-ranking",
+      "candidates": 8
+    },
+    {
+      "name": "correlated_gaussian_d3_p12_seed811",
+      "case": "correlated_gaussian",
+      "dimension": 3,
+      "p": 12,
+      "seed": 811,
+      "n_fit": 120,
+      "n_validation": 120,
+      "n_test": 120,
+      "stage": "candidate-ranking",
+      "candidates": 8
+    },
+    {
+      "name": "student_t_d3_p12_seed811",
+      "case": "student_t",
+      "dimension": 3,
+      "p": 12,
+      "seed": 811,
+      "n_fit": 120,
+      "n_validation": 120,
+      "n_test": 120,
+      "stage": "candidate-ranking",
+      "candidates": 8
+    },
+    {
+      "name": "mean_shift_d3_p12_seed811",
+      "case": "mean_shift",
+      "dimension": 3,
+      "p": 12,
+      "seed": 811,
+      "n_fit": 120,
+      "n_validation": 120,
+      "n_test": 120,
+      "stage": "candidate-ranking",
+      "candidates": 8
+    }
+  ],
+  "completed": [
+    "shells_d2_p12_seed811",
+    "shells_d5_p12_seed811",
+    "correlated_gaussian_d3_p12_seed811",
+    "student_t_d3_p12_seed811",
+    "mean_shift_d3_p12_seed811"
+  ],
+  "current_job": null,
+  "source_sha256": {
+    "scripts\\run_research_radial_diagnostic.py": "7d15ceb66186da10504802f4e3ad679d5baa637a50e2f73f1be68ed917a77df0",
+    "atomic_research\\radial_diagnostics.py": "e05b51ac234307c836358234ebbab527a7a1161e1ccf2296c13a39fe598834d2",
+    "atomic_research\\radial_panels.py": "8df4a032264a49a1cdc7d8847662cea6ad3f02c06f965b68b6d772c19f0752bf"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "threads": 1,
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "threadpoolctl": "3.6.0"
+  },
+  "scope": "supplied-panel oracle diagnostics; no autonomous feature discovery or inferential guarantees",
+  "label_use": "oracle candidate construction and descriptive reporting only",
+  "test_used_for_selection": false,
+  "seconds": 4.862541799899191
+}

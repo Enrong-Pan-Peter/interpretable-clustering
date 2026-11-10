@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "run": "C:\\Users\\Peter\\Desktop\\Github\\ATOMIC_Clustering\\results\\research_radial_diagnostic\\20261020T021208_103657Z",
+  "checks": 18031,
+  "jobs": 36,
+  "candidates": 360,
+  "errors": [],
+  "notes": [
+    "17 completed jobs reused byte-for-byte with recorded predecessor source identity."
+  ],
+  "scope": "saved-state numerical, native-rule, metric and selection audit; not an independent experiment or cluster-validity guarantee"
+}

@@ -1,0 +1,1660 @@
+{
+  "caveat": "In-sample saved trees; reference labels influence stopping. No held-out validation.",
+  "node_metric_note": "Node purity measures population retention, not final clustering quality.",
+  "macro_f1_note": "For each reference population choose its best leaf F1, then average equally. This is a diagnostic, not one-to-one matching.",
+  "trees": [
+    {
+      "file": "results/levine_tree_cap60_d6_k4_s0.json",
+      "source_sha256": "58c2af2b7d7c8e53aaf8f48ea0189ad1d831c585884bbb5f0ceb9d480d2adcdf",
+      "saved_config": {
+        "depth": 6,
+        "cap": 60,
+        "seeds": 5,
+        "max_size": 4,
+        "B": 15,
+        "jobs": 8,
+        "seed": 0,
+        "n_prop": 800,
+        "proportional": false,
+        "bar": 2.0,
+        "min_cells": 60
+      },
+      "n": 840,
+      "internal_nodes": 17,
+      "leaves": 18,
+      "mean_node_population_retention": 0.8765995819927331,
+      "worst_node_population_retention": 0.5737373737373738,
+      "nodes_below_0_90_retention": 6,
+      "canonical_primary_hits": 7,
+      "checkable_boundaries": 15,
+      "panels_assessed_for_drop_one": 16,
+      "drop_one_retention_cost_le_0_005": 16,
+      "leaf_reasons": {
+        "too few cells": 14,
+        "pure": 3,
+        "depth limit": 1
+      },
+      "final_partition": {
+        "ari": 0.7608170147546982,
+        "leaf_purity": 0.875,
+        "macro_best_leaf_f1": 0.8397545486037978,
+        "best_leaf_f1_by_population": {
+          "CD4_T": 0.9917355371900827,
+          "CD8_T": 0.9915966386554622,
+          "HSC": 0.7692307692307693,
+          "HSPC_CD123neg": 0.9090909090909091,
+          "HSPC_CD123pos": 0.9917355371900827,
+          "NK_CD16neg": 0.5822784810126582,
+          "NK_CD16pos": 0.6075949367088608,
+          "basophil": 0.918918918918919,
+          "mature_B": 0.5894736842105263,
+          "monocyte": 0.9915966386554622,
+          "pDC": 0.8,
+          "plasma_B": 0.9122807017543859,
+          "pre_B": 0.7010309278350515,
+          "pro_B": 1.0
+        },
+        "population_totals": {
+          "CD4_T": 60,
+          "CD8_T": 60,
+          "HSC": 60,
+          "HSPC_CD123neg": 60,
+          "HSPC_CD123pos": 60,
+          "NK_CD16neg": 60,
+          "NK_CD16pos": 60,
+          "basophil": 60,
+          "mature_B": 60,
+          "monocyte": 60,
+          "pDC": 60,
+          "plasma_B": 60,
+          "pre_B": 60,
+          "pro_B": 60
+        },
+        "contingency_counts": [
+          {
+            "basophil": 51
+          },
+          {
+            "basophil": 6,
+            "pDC": 18
+          },
+          {
+            "basophil": 3,
+            "pDC": 42
+          },
+          {
+            "CD4_T": 60,
+            "CD8_T": 1
+          },
+          {
+            "CD8_T": 59
+          },
+          {
+            "NK_CD16neg": 46,
+            "NK_CD16pos": 48,
+            "mature_B": 4
+          },
+          {
+            "NK_CD16neg": 14,
+            "NK_CD16pos": 12,
+            "mature_B": 1
+          },
+          {
+            "monocyte": 59
+          },
+          {
+            "HSPC_CD123neg": 1,
+            "HSPC_CD123pos": 60
+          },
+          {
+            "HSPC_CD123neg": 50
+          },
+          {
+            "HSPC_CD123neg": 5,
+            "HSC": 20
+          },
+          {
+            "HSPC_CD123neg": 4,
+            "HSC": 40
+          },
+          {
+            "plasma_B": 52,
+            "pre_B": 2
+          },
+          {
+            "plasma_B": 3,
+            "pre_B": 34
+          },
+          {
+            "mature_B": 27,
+            "plasma_B": 2,
+            "pre_B": 5
+          },
+          {
+            "mature_B": 28,
+            "plasma_B": 1,
+            "pre_B": 6
+          },
+          {
+            "monocyte": 1,
+            "plasma_B": 2,
+            "pre_B": 13
+          },
+          {
+            "pro_B": 60
+          }
+        ]
+      }
+    },
+    {
+      "file": "results/levine_tree_cap60_d6_k4_s1.json",
+      "source_sha256": "040574cca878284debdd6ca7277acf8c78a391d05362822818a1654fea9162e2",
+      "saved_config": {
+        "depth": 6,
+        "cap": 60,
+        "seeds": 5,
+        "max_size": 4,
+        "B": 15,
+        "jobs": 8,
+        "seed": 1,
+        "n_prop": 800,
+        "proportional": false,
+        "bar": 2.0,
+        "min_cells": 60
+      },
+      "n": 840,
+      "internal_nodes": 14,
+      "leaves": 15,
+      "mean_node_population_retention": 0.8911074081882899,
+      "worst_node_population_retention": 0.6083333333333334,
+      "nodes_below_0_90_retention": 5,
+      "canonical_primary_hits": 4,
+      "checkable_boundaries": 9,
+      "panels_assessed_for_drop_one": 14,
+      "drop_one_retention_cost_le_0_005": 14,
+      "leaf_reasons": {
+        "too few cells": 9,
+        "depth limit": 3,
+        "pure": 3
+      },
+      "final_partition": {
+        "ari": 0.6916441129466179,
+        "leaf_purity": 0.7738095238095238,
+        "macro_best_leaf_f1": 0.7686382361235162,
+        "best_leaf_f1_by_population": {
+          "CD4_T": 0.9833333333333333,
+          "CD8_T": 0.9833333333333333,
+          "HSC": 0.6993006993006993,
+          "HSPC_CD123neg": 0.5531914893617021,
+          "HSPC_CD123pos": 0.8214285714285714,
+          "NK_CD16neg": 0.5046728971962616,
+          "NK_CD16pos": 0.4380952380952381,
+          "basophil": 0.9401709401709402,
+          "mature_B": 0.9836065573770492,
+          "monocyte": 0.9915966386554622,
+          "pDC": 0.6542056074766355,
+          "plasma_B": 0.928,
+          "pre_B": 0.6514285714285715,
+          "pro_B": 0.6285714285714286
+        },
+        "population_totals": {
+          "CD4_T": 60,
+          "CD8_T": 60,
+          "HSC": 60,
+          "HSPC_CD123neg": 60,
+          "HSPC_CD123pos": 60,
+          "NK_CD16neg": 60,
+          "NK_CD16pos": 60,
+          "basophil": 60,
+          "mature_B": 60,
+          "monocyte": 60,
+          "pDC": 60,
+          "plasma_B": 60,
+          "pre_B": 60,
+          "pro_B": 60
+        },
+        "contingency_counts": [
+          {
+            "basophil": 5,
+            "HSPC_CD123pos": 7,
+            "pDC": 35
+          },
+          {
+            "HSPC_CD123pos": 46,
+            "pDC": 6
+          },
+          {
+            "HSPC_CD123pos": 5,
+            "monocyte": 1,
+            "pDC": 19,
+            "pre_B": 1
+          },
+          {
+            "basophil": 55,
+            "HSPC_CD123pos": 2
+          },
+          {
+            "HSPC_CD123neg": 33,
+            "HSC": 50
+          },
+          {
+            "HSPC_CD123neg": 26,
+            "HSC": 8
+          },
+          {
+            "monocyte": 59
+          },
+          {
+            "plasma_B": 58,
+            "pre_B": 2,
+            "pro_B": 5
+          },
+          {
+            "HSPC_CD123neg": 1,
+            "plasma_B": 2,
+            "pre_B": 57,
+            "pro_B": 55
+          },
+          {
+            "HSC": 2,
+            "mature_B": 60
+          },
+          {
+            "NK_CD16neg": 11,
+            "NK_CD16pos": 17
+          },
+          {
+            "NK_CD16neg": 22,
+            "NK_CD16pos": 23
+          },
+          {
+            "NK_CD16neg": 27,
+            "NK_CD16pos": 20
+          },
+          {
+            "CD4_T": 59,
+            "CD8_T": 1
+          },
+          {
+            "CD4_T": 1,
+            "CD8_T": 59
+          }
+        ]
+      }
+    },
+    {
+      "file": "results/levine_tree_combined_cap60_d6_k2_s0.json",
+      "source_sha256": "70ace5765ba42f51211dbed09922f9aad9bb8f0338205244d5e49619e3f23d5b",
+      "saved_config": {
+        "depth": 6,
+        "cap": 60,
+        "seeds": 5,
+        "max_size": 2,
+        "B": 15,
+        "jobs": 8,
+        "seed": 0,
+        "n_prop": 800,
+        "term": "combined",
+        "split_term": "graphcut",
+        "n_reps": 1,
+        "min_gain_se": 0.0,
+        "proportional": false,
+        "bar": 2.0,
+        "min_cells": 60
+      },
+      "n": 840,
+      "internal_nodes": 0,
+      "leaves": 1,
+      "mean_node_population_retention": null,
+      "worst_node_population_retention": null,
+      "nodes_below_0_90_retention": 0,
+      "canonical_primary_hits": 0,
+      "checkable_boundaries": 0,
+      "panels_assessed_for_drop_one": 0,
+      "drop_one_retention_cost_le_0_005": 0,
+      "leaf_reasons": {
+        "ABSTAIN (z=0.99 < 2.0)": 1
+      },
+      "final_partition": null,
+      "unavailable_reason": "Root is a leaf; saved file has no population count table."
+    },
+    {
+      "file": "results/levine_tree_combined_cap60_d6_k3_s0.json",
+      "source_sha256": "0a5e141590aed6fde6103ff7f3af543a00858e485405de9d6dd96db64a76eaff",
+      "saved_config": {
+        "depth": 6,
+        "cap": 60,
+        "seeds": 5,
+        "max_size": 3,
+        "B": 15,
+        "jobs": 8,
+        "seed": 0,
+        "n_prop": 800,
+        "term": "combined",
+        "split_term": "graphcut",
+        "n_reps": 1,
+        "min_gain_se": 0.0,
+        "proportional": false,
+        "bar": 2.0,
+        "min_cells": 60
+      },
+      "n": 840,
+      "internal_nodes": 13,
+      "leaves": 14,
+      "mean_node_population_retention": 0.9215089274769848,
+      "worst_node_population_retention": 0.6131355932203391,
+      "nodes_below_0_90_retention": 3,
+      "canonical_primary_hits": 6,
+      "checkable_boundaries": 10,
+      "panels_assessed_for_drop_one": 13,
+      "drop_one_retention_cost_le_0_005": 13,
+      "leaf_reasons": {
+        "depth limit": 1,
+        "too few cells": 9,
+        "pure": 3,
+        "ABSTAIN (z=2.00 < 2.0)": 1
+      },
+      "final_partition": {
+        "ari": 0.7049515055155257,
+        "leaf_purity": 0.7666666666666667,
+        "macro_best_leaf_f1": 0.8002693924690699,
+        "best_leaf_f1_by_population": {
+          "CD4_T": 0.9833333333333333,
+          "CD8_T": 0.9915966386554622,
+          "HSC": 0.9833333333333333,
+          "HSPC_CD123neg": 0.591304347826087,
+          "HSPC_CD123pos": 0.5504587155963303,
+          "NK_CD16neg": 0.6666666666666666,
+          "NK_CD16pos": 0.6666666666666666,
+          "basophil": 0.9090909090909091,
+          "mature_B": 0.6217616580310881,
+          "monocyte": 1.0,
+          "pDC": 0.8118811881188119,
+          "plasma_B": 0.8518518518518519,
+          "pre_B": 0.6010362694300518,
+          "pro_B": 0.9747899159663865
+        },
+        "population_totals": {
+          "CD4_T": 60,
+          "CD8_T": 60,
+          "HSC": 60,
+          "HSPC_CD123neg": 60,
+          "HSPC_CD123pos": 60,
+          "NK_CD16neg": 60,
+          "NK_CD16pos": 60,
+          "basophil": 60,
+          "mature_B": 60,
+          "monocyte": 60,
+          "pDC": 60,
+          "plasma_B": 60,
+          "pre_B": 60,
+          "pro_B": 60
+        },
+        "contingency_counts": [
+          {
+            "CD4_T": 1,
+            "mature_B": 60,
+            "plasma_B": 14,
+            "pre_B": 58
+          },
+          {
+            "plasma_B": 46,
+            "pre_B": 2
+          },
+          {
+            "monocyte": 60
+          },
+          {
+            "NK_CD16neg": 60,
+            "NK_CD16pos": 60
+          },
+          {
+            "basophil": 50
+          },
+          {
+            "pDC": 41
+          },
+          {
+            "basophil": 10,
+            "pDC": 19
+          },
+          {
+            "HSC": 1,
+            "pro_B": 58
+          },
+          {
+            "HSPC_CD123neg": 34,
+            "HSPC_CD123pos": 21
+          },
+          {
+            "HSPC_CD123neg": 17,
+            "HSPC_CD123pos": 30,
+            "pro_B": 2
+          },
+          {
+            "HSPC_CD123neg": 8,
+            "HSPC_CD123pos": 9
+          },
+          {
+            "HSPC_CD123neg": 1,
+            "HSC": 59
+          },
+          {
+            "CD8_T": 59
+          },
+          {
+            "CD4_T": 59,
+            "CD8_T": 1
+          }
+        ]
+      }
+    },
+    {
+      "file": "results/levine_tree_combined_cap60_d6_k4_s0.json",
+      "source_sha256": "35d110d11952b802432b151bb87e8868197f04aada74868c111a9ff07ddb3b73",
+      "saved_config": {
+        "depth": 6,
+        "cap": 60,
+        "seeds": 5,
+        "max_size": 4,
+        "B": 15,
+        "jobs": 8,
+        "seed": 0,
+        "n_prop": 800,
+        "term": "combined",
+        "split_term": "graphcut",
+        "n_reps": 1,
+        "min_gain_se": 0.0,
+        "proportional": false,
+        "bar": 2.0,
+        "min_cells": 60
+      },
+      "n": 840,
+      "internal_nodes": 17,
+      "leaves": 18,
+      "mean_node_population_retention": 0.9088622586180108,
+      "worst_node_population_retention": 0.5833333333333334,
+      "nodes_below_0_90_retention": 4,
+      "canonical_primary_hits": 5,
+      "checkable_boundaries": 12,
+      "panels_assessed_for_drop_one": 17,
+      "drop_one_retention_cost_le_0_005": 15,
+      "leaf_reasons": {
+        "too few cells": 15,
+        "pure": 3
+      },
+      "final_partition": {
+        "ari": 0.7993733087352679,
+        "leaf_purity": 0.9119047619047619,
+        "macro_best_leaf_f1": 0.8699845261747353,
+        "best_leaf_f1_by_population": {
+          "CD4_T": 0.9917355371900827,
+          "CD8_T": 0.9915966386554622,
+          "HSC": 0.9747899159663865,
+          "HSPC_CD123neg": 0.9747899159663865,
+          "HSPC_CD123pos": 0.9917355371900827,
+          "NK_CD16neg": 0.8118811881188119,
+          "NK_CD16pos": 0.8679245283018868,
+          "basophil": 0.6956521739130435,
+          "mature_B": 0.6067415730337079,
+          "monocyte": 0.9830508474576272,
+          "pDC": 0.7155963302752294,
+          "plasma_B": 0.8990825688073395,
+          "pre_B": 0.7,
+          "pro_B": 0.9752066115702479
+        },
+        "population_totals": {
+          "CD4_T": 60,
+          "CD8_T": 60,
+          "HSC": 60,
+          "HSPC_CD123neg": 60,
+          "HSPC_CD123pos": 60,
+          "NK_CD16neg": 60,
+          "NK_CD16pos": 60,
+          "basophil": 60,
+          "mature_B": 60,
+          "monocyte": 60,
+          "pDC": 60,
+          "plasma_B": 60,
+          "pre_B": 60,
+          "pro_B": 60
+        },
+        "contingency_counts": [
+          {
+            "HSPC_CD123neg": 58,
+            "pro_B": 1
+          },
+          {
+            "HSPC_CD123neg": 1,
+            "HSPC_CD123pos": 60
+          },
+          {
+            "HSPC_CD123neg": 1,
+            "HSC": 58
+          },
+          {
+            "basophil": 20,
+            "pDC": 21,
+            "plasma_B": 1
+          },
+          {
+            "basophil": 8,
+            "pDC": 39,
+            "plasma_B": 1,
+            "pre_B": 1
+          },
+          {
+            "basophil": 32
+          },
+          {
+            "monocyte": 58
+          },
+          {
+            "HSC": 2,
+            "pro_B": 59
+          },
+          {
+            "monocyte": 1,
+            "plasma_B": 4,
+            "pre_B": 35
+          },
+          {
+            "mature_B": 6,
+            "monocyte": 1,
+            "plasma_B": 5,
+            "pre_B": 18
+          },
+          {
+            "mature_B": 27,
+            "pre_B": 4
+          },
+          {
+            "mature_B": 27,
+            "pre_B": 2
+          },
+          {
+            "plasma_B": 49
+          },
+          {
+            "CD4_T": 60,
+            "CD8_T": 1
+          },
+          {
+            "CD8_T": 59
+          },
+          {
+            "NK_CD16neg": 41
+          },
+          {
+            "NK_CD16pos": 46
+          },
+          {
+            "NK_CD16neg": 19,
+            "NK_CD16pos": 14
+          }
+        ]
+      }
+    },
+    {
+      "file": "results/levine_tree_density_cap60_d6_k4_s0.json",
+      "source_sha256": "ca95fb6ebb04f1bb50686d35509ae4bb37d37a1940dfef41c250262b02d836f1",
+      "saved_config": {
+        "depth": 6,
+        "cap": 60,
+        "seeds": 5,
+        "max_size": 4,
+        "B": 15,
+        "jobs": 8,
+        "seed": 0,
+        "n_prop": 800,
+        "term": "density",
+        "proportional": false,
+        "bar": 2.0,
+        "min_cells": 60
+      },
+      "n": 840,
+      "internal_nodes": 9,
+      "leaves": 10,
+      "mean_node_population_retention": 0.9821082546634889,
+      "worst_node_population_retention": 0.9218088324258923,
+      "nodes_below_0_90_retention": 0,
+      "canonical_primary_hits": 2,
+      "checkable_boundaries": 4,
+      "panels_assessed_for_drop_one": 6,
+      "drop_one_retention_cost_le_0_005": 6,
+      "leaf_reasons": {
+        "depth limit": 2,
+        "too few cells": 6,
+        "pure": 2
+      },
+      "final_partition": {
+        "ari": 0.16722511527437744,
+        "leaf_purity": 0.3726190476190476,
+        "macro_best_leaf_f1": 0.43070424025447157,
+        "best_leaf_f1_by_population": {
+          "CD4_T": 0.9917355371900827,
+          "CD8_T": 0.9915966386554622,
+          "HSC": 0.20309810671256454,
+          "HSPC_CD123neg": 0.1927710843373494,
+          "HSPC_CD123pos": 0.20654044750430292,
+          "NK_CD16neg": 0.6347305389221557,
+          "NK_CD16pos": 0.6347305389221557,
+          "basophil": 0.20654044750430292,
+          "mature_B": 0.1686746987951807,
+          "monocyte": 0.9836065573770492,
+          "pDC": 0.20309810671256454,
+          "plasma_B": 0.20654044750430292,
+          "pre_B": 0.20654044750430292,
+          "pro_B": 0.19965576592082615
+        },
+        "population_totals": {
+          "CD4_T": 60,
+          "CD8_T": 60,
+          "HSC": 60,
+          "HSPC_CD123neg": 60,
+          "HSPC_CD123pos": 60,
+          "NK_CD16neg": 60,
+          "NK_CD16pos": 60,
+          "basophil": 60,
+          "mature_B": 60,
+          "monocyte": 60,
+          "pDC": 60,
+          "plasma_B": 60,
+          "pre_B": 60,
+          "pro_B": 60
+        },
+        "contingency_counts": [
+          {
+            "basophil": 60,
+            "HSPC_CD123neg": 56,
+            "HSPC_CD123pos": 60,
+            "HSC": 59,
+            "mature_B": 49,
+            "pDC": 59,
+            "plasma_B": 60,
+            "pre_B": 60,
+            "pro_B": 58
+          },
+          {
+            "mature_B": 4,
+            "pro_B": 1
+          },
+          {
+            "mature_B": 5
+          },
+          {
+            "NK_CD16neg": 53,
+            "NK_CD16pos": 53,
+            "pDC": 1
+          },
+          {
+            "NK_CD16neg": 4,
+            "NK_CD16pos": 5
+          },
+          {
+            "NK_CD16neg": 3,
+            "NK_CD16pos": 2
+          },
+          {
+            "HSPC_CD123neg": 4,
+            "HSC": 1,
+            "pro_B": 1
+          },
+          {
+            "CD4_T": 60,
+            "CD8_T": 1
+          },
+          {
+            "CD8_T": 59
+          },
+          {
+            "mature_B": 2,
+            "monocyte": 60
+          }
+        ]
+      }
+    },
+    {
+      "file": "results/levine_tree_graphcut_cap120_d6_k2_s0.json",
+      "source_sha256": "77fb0fdd548d8b54f9506dc5300615aff4bd95ce72f1f96dd8903feeb972d8cc",
+      "saved_config": {
+        "depth": 6,
+        "cap": 120,
+        "seeds": 5,
+        "max_size": 2,
+        "B": 15,
+        "jobs": 8,
+        "seed": 0,
+        "n_prop": 800,
+        "term": "graphcut",
+        "proportional": false,
+        "bar": 2.0,
+        "min_cells": 60
+      },
+      "n": 1680,
+      "internal_nodes": 16,
+      "leaves": 17,
+      "mean_node_population_retention": 0.848052991845412,
+      "worst_node_population_retention": 0.5686141304347826,
+      "nodes_below_0_90_retention": 7,
+      "canonical_primary_hits": 5,
+      "checkable_boundaries": 12,
+      "panels_assessed_for_drop_one": 0,
+      "drop_one_retention_cost_le_0_005": 0,
+      "leaf_reasons": {
+        "pure": 5,
+        "depth limit": 1,
+        "ABSTAIN (z=0.68 < 2.0)": 1,
+        "ABSTAIN (z=1.37 < 2.0)": 1,
+        "too few cells": 9
+      },
+      "final_partition": {
+        "ari": 0.3975366978018463,
+        "leaf_purity": 0.6428571428571429,
+        "macro_best_leaf_f1": 0.6141126547581572,
+        "best_leaf_f1_by_population": {
+          "CD4_T": 0.9836065573770492,
+          "CD8_T": 0.651685393258427,
+          "HSC": 0.3296398891966759,
+          "HSPC_CD123neg": 0.3296398891966759,
+          "HSPC_CD123pos": 0.33240997229916897,
+          "NK_CD16neg": 0.4245810055865922,
+          "NK_CD16pos": 0.5093167701863354,
+          "basophil": 0.33240997229916897,
+          "mature_B": 0.9743589743589743,
+          "monocyte": 0.8059701492537313,
+          "pDC": 0.33240997229916897,
+          "plasma_B": 0.8598130841121495,
+          "pre_B": 0.74,
+          "pro_B": 0.9917355371900827
+        },
+        "population_totals": {
+          "CD4_T": 120,
+          "CD8_T": 120,
+          "HSC": 120,
+          "HSPC_CD123neg": 120,
+          "HSPC_CD123pos": 120,
+          "NK_CD16neg": 120,
+          "NK_CD16pos": 120,
+          "basophil": 120,
+          "mature_B": 120,
+          "monocyte": 120,
+          "pDC": 120,
+          "plasma_B": 120,
+          "pre_B": 120,
+          "pro_B": 120
+        },
+        "contingency_counts": [
+          {
+            "HSPC_CD123neg": 1,
+            "pre_B": 1,
+            "pro_B": 120
+          },
+          {
+            "plasma_B": 92,
+            "pre_B": 2
+          },
+          {
+            "plasma_B": 6,
+            "pre_B": 74
+          },
+          {
+            "plasma_B": 22,
+            "pre_B": 43
+          },
+          {
+            "basophil": 120,
+            "NK_CD16neg": 3,
+            "HSPC_CD123neg": 119,
+            "HSPC_CD123pos": 120,
+            "HSC": 119,
+            "monocyte": 1,
+            "pDC": 120
+          },
+          {
+            "mature_B": 114
+          },
+          {
+            "monocyte": 81
+          },
+          {
+            "mature_B": 6,
+            "monocyte": 38
+          },
+          {
+            "NK_CD16neg": 38,
+            "NK_CD16pos": 21
+          },
+          {
+            "NK_CD16neg": 26,
+            "NK_CD16pos": 25
+          },
+          {
+            "NK_CD16neg": 29,
+            "NK_CD16pos": 7
+          },
+          {
+            "NK_CD16pos": 41
+          },
+          {
+            "NK_CD16neg": 20,
+            "NK_CD16pos": 26
+          },
+          {
+            "CD8_T": 58
+          },
+          {
+            "NK_CD16neg": 2,
+            "CD8_T": 27
+          },
+          {
+            "NK_CD16neg": 1,
+            "CD8_T": 33
+          },
+          {
+            "NK_CD16neg": 1,
+            "HSC": 1,
+            "CD4_T": 120,
+            "CD8_T": 2
+          }
+        ]
+      }
+    },
+    {
+      "file": "results/levine_tree_graphcut_cap60_d6_k2_s0.json",
+      "source_sha256": "67ea0fa6b7be2ee237aa413673d05044e0459c1cada6b26b74bc900661ae8930",
+      "saved_config": {
+        "depth": 6,
+        "cap": 60,
+        "seeds": 5,
+        "max_size": 2,
+        "B": 15,
+        "jobs": 8,
+        "seed": 0,
+        "n_prop": 800,
+        "term": "graphcut",
+        "proportional": false,
+        "bar": 2.0,
+        "min_cells": 60
+      },
+      "n": 840,
+      "internal_nodes": 10,
+      "leaves": 11,
+      "mean_node_population_retention": 0.9795069948883508,
+      "worst_node_population_retention": 0.8777777777777778,
+      "nodes_below_0_90_retention": 1,
+      "canonical_primary_hits": 5,
+      "checkable_boundaries": 6,
+      "panels_assessed_for_drop_one": 0,
+      "drop_one_retention_cost_le_0_005": 0,
+      "leaf_reasons": {
+        "ABSTAIN (z=1.48 < 2.0)": 1,
+        "too few cells": 5,
+        "ABSTAIN (z=0.95 < 2.0)": 1,
+        "ABSTAIN (z=1.90 < 2.0)": 1,
+        "ABSTAIN (z=1.91 < 2.0)": 1,
+        "ABSTAIN (z=0.99 < 2.0)": 1,
+        "ABSTAIN (z=1.76 < 2.0)": 1
+      },
+      "final_partition": {
+        "ari": 0.6384328081984592,
+        "leaf_purity": 0.6440476190476191,
+        "macro_best_leaf_f1": 0.7291991018787626,
+        "best_leaf_f1_by_population": {
+          "CD4_T": 0.9915966386554622,
+          "CD8_T": 0.9915966386554622,
+          "HSC": 0.6404494382022472,
+          "HSPC_CD123neg": 0.6629213483146067,
+          "HSPC_CD123pos": 0.4657534246575342,
+          "NK_CD16neg": 0.6741573033707865,
+          "NK_CD16pos": 0.651685393258427,
+          "basophil": 0.45662100456621,
+          "mature_B": 0.9,
+          "monocyte": 0.9830508474576272,
+          "pDC": 0.5205479452054794,
+          "plasma_B": 0.6820809248554913,
+          "pre_B": 0.6127167630057804,
+          "pro_B": 0.975609756097561
+        },
+        "population_totals": {
+          "CD4_T": 60,
+          "CD8_T": 60,
+          "HSC": 60,
+          "HSPC_CD123neg": 60,
+          "HSPC_CD123pos": 60,
+          "NK_CD16neg": 60,
+          "NK_CD16pos": 60,
+          "basophil": 60,
+          "mature_B": 60,
+          "monocyte": 60,
+          "pDC": 60,
+          "plasma_B": 60,
+          "pre_B": 60,
+          "pro_B": 60
+        },
+        "contingency_counts": [
+          {
+            "monocyte": 1,
+            "plasma_B": 59,
+            "pre_B": 53
+          },
+          {
+            "NK_CD16pos": 2,
+            "CD4_T": 1,
+            "CD8_T": 1,
+            "mature_B": 6,
+            "monocyte": 1
+          },
+          {
+            "mature_B": 54,
+            "pre_B": 6
+          },
+          {
+            "HSC": 3,
+            "pro_B": 60
+          },
+          {
+            "CD8_T": 59
+          },
+          {
+            "CD4_T": 59
+          },
+          {
+            "basophil": 50,
+            "HSPC_CD123neg": 1,
+            "HSPC_CD123pos": 51,
+            "pDC": 57
+          },
+          {
+            "basophil": 10,
+            "HSPC_CD123pos": 9,
+            "pDC": 3
+          },
+          {
+            "HSPC_CD123neg": 59,
+            "HSC": 57,
+            "plasma_B": 1,
+            "pre_B": 1
+          },
+          {
+            "NK_CD16neg": 60,
+            "NK_CD16pos": 58
+          },
+          {
+            "monocyte": 58
+          }
+        ]
+      }
+    },
+    {
+      "file": "results/levine_tree_graphcut_cap60_d6_k2_s1.json",
+      "source_sha256": "95d25cee644f23dd6ba1a835af87655f23f7e906bf21736a2c3940df1bd4f0c0",
+      "saved_config": {
+        "depth": 6,
+        "cap": 60,
+        "seeds": 5,
+        "max_size": 2,
+        "B": 15,
+        "jobs": 8,
+        "seed": 1,
+        "n_prop": 800,
+        "term": "graphcut",
+        "proportional": false,
+        "bar": 2.0,
+        "min_cells": 60
+      },
+      "n": 840,
+      "internal_nodes": 10,
+      "leaves": 11,
+      "mean_node_population_retention": 0.9526441791210931,
+      "worst_node_population_retention": 0.7261835184102864,
+      "nodes_below_0_90_retention": 2,
+      "canonical_primary_hits": 4,
+      "checkable_boundaries": 6,
+      "panels_assessed_for_drop_one": 0,
+      "drop_one_retention_cost_le_0_005": 0,
+      "leaf_reasons": {
+        "too few cells": 4,
+        "ABSTAIN (z=1.93 < 2.0)": 1,
+        "depth limit": 1,
+        "ABSTAIN (z=1.38 < 2.0)": 1,
+        "pure": 3,
+        "ABSTAIN (z=1.41 < 2.0)": 1
+      },
+      "final_partition": {
+        "ari": 0.6206783400291137,
+        "leaf_purity": 0.6511904761904762,
+        "macro_best_leaf_f1": 0.7193432424952186,
+        "best_leaf_f1_by_population": {
+          "CD4_T": 0.9833333333333333,
+          "CD8_T": 0.9833333333333333,
+          "HSC": 0.5517241379310345,
+          "HSPC_CD123neg": 0.6206896551724138,
+          "HSPC_CD123pos": 0.5125,
+          "NK_CD16neg": 0.6666666666666666,
+          "NK_CD16pos": 0.6666666666666666,
+          "basophil": 0.9565217391304348,
+          "mature_B": 0.9836065573770492,
+          "monocyte": 0.9915966386554622,
+          "pDC": 0.6625,
+          "plasma_B": 0.5,
+          "pre_B": 0.49166666666666664,
+          "pro_B": 0.5
+        },
+        "population_totals": {
+          "CD4_T": 60,
+          "CD8_T": 60,
+          "HSC": 60,
+          "HSPC_CD123neg": 60,
+          "HSPC_CD123pos": 60,
+          "NK_CD16neg": 60,
+          "NK_CD16pos": 60,
+          "basophil": 60,
+          "mature_B": 60,
+          "monocyte": 60,
+          "pDC": 60,
+          "plasma_B": 60,
+          "pre_B": 60,
+          "pro_B": 60
+        },
+        "contingency_counts": [
+          {
+            "basophil": 55
+          },
+          {
+            "basophil": 4,
+            "HSPC_CD123pos": 41,
+            "monocyte": 1,
+            "pDC": 53,
+            "pre_B": 1
+          },
+          {
+            "basophil": 1,
+            "HSPC_CD123pos": 19,
+            "pDC": 7
+          },
+          {
+            "HSPC_CD123neg": 45,
+            "HSC": 40
+          },
+          {
+            "HSPC_CD123neg": 14,
+            "HSC": 18
+          },
+          {
+            "monocyte": 59
+          },
+          {
+            "HSPC_CD123neg": 1,
+            "plasma_B": 60,
+            "pre_B": 59,
+            "pro_B": 60
+          },
+          {
+            "HSC": 2,
+            "mature_B": 60
+          },
+          {
+            "NK_CD16neg": 60,
+            "NK_CD16pos": 60
+          },
+          {
+            "CD4_T": 59,
+            "CD8_T": 1
+          },
+          {
+            "CD4_T": 1,
+            "CD8_T": 59
+          }
+        ]
+      }
+    },
+    {
+      "file": "results/levine_tree_graphcut_cap60_d6_k4_s0.json",
+      "source_sha256": "ee3d7b7a888a5cef526dd1645d3f9113c7e08b5f32d36398cc24d66a223b531e",
+      "saved_config": {
+        "depth": 6,
+        "cap": 60,
+        "seeds": 5,
+        "max_size": 4,
+        "B": 15,
+        "jobs": 8,
+        "seed": 0,
+        "n_prop": 800,
+        "term": "graphcut",
+        "split_term": "graphcut",
+        "n_reps": 1,
+        "min_gain_se": 0.0,
+        "proportional": false,
+        "bar": 2.0,
+        "min_cells": 60
+      },
+      "n": 840,
+      "internal_nodes": 17,
+      "leaves": 18,
+      "mean_node_population_retention": 0.8765995819927331,
+      "worst_node_population_retention": 0.5737373737373738,
+      "nodes_below_0_90_retention": 6,
+      "canonical_primary_hits": 7,
+      "checkable_boundaries": 15,
+      "panels_assessed_for_drop_one": 16,
+      "drop_one_retention_cost_le_0_005": 16,
+      "leaf_reasons": {
+        "too few cells": 14,
+        "pure": 3,
+        "depth limit": 1
+      },
+      "final_partition": {
+        "ari": 0.7608170147546982,
+        "leaf_purity": 0.875,
+        "macro_best_leaf_f1": 0.8397545486037978,
+        "best_leaf_f1_by_population": {
+          "CD4_T": 0.9917355371900827,
+          "CD8_T": 0.9915966386554622,
+          "HSC": 0.7692307692307693,
+          "HSPC_CD123neg": 0.9090909090909091,
+          "HSPC_CD123pos": 0.9917355371900827,
+          "NK_CD16neg": 0.5822784810126582,
+          "NK_CD16pos": 0.6075949367088608,
+          "basophil": 0.918918918918919,
+          "mature_B": 0.5894736842105263,
+          "monocyte": 0.9915966386554622,
+          "pDC": 0.8,
+          "plasma_B": 0.9122807017543859,
+          "pre_B": 0.7010309278350515,
+          "pro_B": 1.0
+        },
+        "population_totals": {
+          "CD4_T": 60,
+          "CD8_T": 60,
+          "HSC": 60,
+          "HSPC_CD123neg": 60,
+          "HSPC_CD123pos": 60,
+          "NK_CD16neg": 60,
+          "NK_CD16pos": 60,
+          "basophil": 60,
+          "mature_B": 60,
+          "monocyte": 60,
+          "pDC": 60,
+          "plasma_B": 60,
+          "pre_B": 60,
+          "pro_B": 60
+        },
+        "contingency_counts": [
+          {
+            "basophil": 51
+          },
+          {
+            "basophil": 6,
+            "pDC": 18
+          },
+          {
+            "basophil": 3,
+            "pDC": 42
+          },
+          {
+            "CD4_T": 60,
+            "CD8_T": 1
+          },
+          {
+            "CD8_T": 59
+          },
+          {
+            "NK_CD16neg": 46,
+            "NK_CD16pos": 48,
+            "mature_B": 4
+          },
+          {
+            "NK_CD16neg": 14,
+            "NK_CD16pos": 12,
+            "mature_B": 1
+          },
+          {
+            "monocyte": 59
+          },
+          {
+            "HSPC_CD123neg": 1,
+            "HSPC_CD123pos": 60
+          },
+          {
+            "HSPC_CD123neg": 50
+          },
+          {
+            "HSPC_CD123neg": 5,
+            "HSC": 20
+          },
+          {
+            "HSPC_CD123neg": 4,
+            "HSC": 40
+          },
+          {
+            "plasma_B": 52,
+            "pre_B": 2
+          },
+          {
+            "plasma_B": 3,
+            "pre_B": 34
+          },
+          {
+            "mature_B": 27,
+            "plasma_B": 2,
+            "pre_B": 5
+          },
+          {
+            "mature_B": 28,
+            "plasma_B": 1,
+            "pre_B": 6
+          },
+          {
+            "monocyte": 1,
+            "plasma_B": 2,
+            "pre_B": 13
+          },
+          {
+            "pro_B": 60
+          }
+        ]
+      }
+    },
+    {
+      "file": "results/levine_tree_graphcut_prop800_d6_k2_s0.json",
+      "source_sha256": "9f3f16cd360bb98559633e047f26ed4af9fb4420f138b64e6909fd30dabf6ab8",
+      "saved_config": {
+        "depth": 6,
+        "cap": 60,
+        "seeds": 5,
+        "max_size": 2,
+        "B": 15,
+        "jobs": 8,
+        "seed": 0,
+        "n_prop": 800,
+        "term": "graphcut",
+        "proportional": true,
+        "bar": 2.0,
+        "min_cells": 60
+      },
+      "n": 799,
+      "internal_nodes": 9,
+      "leaves": 10,
+      "mean_node_population_retention": 0.9271190593187753,
+      "worst_node_population_retention": 0.7455938697318008,
+      "nodes_below_0_90_retention": 3,
+      "canonical_primary_hits": 3,
+      "checkable_boundaries": 7,
+      "panels_assessed_for_drop_one": 0,
+      "drop_one_retention_cost_le_0_005": 0,
+      "leaf_reasons": {
+        "pure": 4,
+        "too few cells": 4,
+        "depth limit": 1,
+        "ABSTAIN (z=1.37 < 2.0)": 1
+      },
+      "final_partition": {
+        "ari": 0.7944836957254771,
+        "leaf_purity": 0.8397997496871089,
+        "macro_best_leaf_f1": 0.5264877356442462,
+        "best_leaf_f1_by_population": {
+          "CD4_T": 0.9975308641975309,
+          "CD8_T": 1.0,
+          "HSC": 0.208955223880597,
+          "HSPC_CD123neg": 0.49411764705882355,
+          "HSPC_CD123pos": 0.18181818181818182,
+          "NK_CD16neg": 0.59375,
+          "NK_CD16pos": 0.5882352941176471,
+          "basophil": 0.5517241379310345,
+          "mature_B": 0.6802030456852792,
+          "monocyte": 0.8145454545454546,
+          "pDC": 0.6666666666666666,
+          "plasma_B": 0.06349206349206349,
+          "pre_B": 0.4672897196261682,
+          "pro_B": 0.0625
+        },
+        "population_totals": {
+          "CD4_T": 202,
+          "CD8_T": 154,
+          "HSC": 7,
+          "HSPC_CD123neg": 25,
+          "HSPC_CD123pos": 2,
+          "NK_CD16neg": 30,
+          "NK_CD16pos": 17,
+          "basophil": 9,
+          "mature_B": 127,
+          "monocyte": 162,
+          "pDC": 10,
+          "plasma_B": 3,
+          "pre_B": 47,
+          "pro_B": 4
+        },
+        "contingency_counts": [
+          {
+            "HSPC_CD123neg": 1,
+            "monocyte": 112
+          },
+          {
+            "NK_CD16neg": 19,
+            "NK_CD16pos": 15
+          },
+          {
+            "HSPC_CD123neg": 21,
+            "HSC": 7,
+            "mature_B": 3,
+            "plasma_B": 2,
+            "pre_B": 25,
+            "pro_B": 2
+          },
+          {
+            "HSPC_CD123neg": 1,
+            "mature_B": 20,
+            "monocyte": 4,
+            "pre_B": 4
+          },
+          {
+            "mature_B": 67,
+            "monocyte": 1,
+            "pre_B": 2
+          },
+          {
+            "mature_B": 19,
+            "monocyte": 1
+          },
+          {
+            "basophil": 1,
+            "NK_CD16neg": 11,
+            "NK_CD16pos": 2,
+            "HSPC_CD123neg": 2,
+            "mature_B": 18,
+            "monocyte": 43,
+            "plasma_B": 1,
+            "pre_B": 16,
+            "pro_B": 2
+          },
+          {
+            "basophil": 8,
+            "HSPC_CD123pos": 2,
+            "pDC": 10
+          },
+          {
+            "CD4_T": 202,
+            "monocyte": 1
+          },
+          {
+            "CD8_T": 154
+          }
+        ]
+      }
+    },
+    {
+      "file": "results/levine_tree_prop800_d6_k4_s0.json",
+      "source_sha256": "35ecc147c018a4c39e6b2fa3e85170f147c2867bdee88566a6035fc7bb87895b",
+      "saved_config": {
+        "depth": 6,
+        "cap": 60,
+        "seeds": 5,
+        "max_size": 4,
+        "B": 15,
+        "jobs": 8,
+        "seed": 0,
+        "n_prop": 800,
+        "proportional": true,
+        "bar": 2.0,
+        "min_cells": 60
+      },
+      "n": 799,
+      "internal_nodes": 8,
+      "leaves": 9,
+      "mean_node_population_retention": 0.9455763410668846,
+      "worst_node_population_retention": 0.8088888888888889,
+      "nodes_below_0_90_retention": 2,
+      "canonical_primary_hits": 4,
+      "checkable_boundaries": 8,
+      "panels_assessed_for_drop_one": 8,
+      "drop_one_retention_cost_le_0_005": 8,
+      "leaf_reasons": {
+        "pure": 3,
+        "ABSTAIN (z=1.81 < 2.0)": 1,
+        "too few cells": 4,
+        "depth limit": 1
+      },
+      "final_partition": {
+        "ari": 0.898549503194404,
+        "leaf_purity": 0.9111389236545682,
+        "macro_best_leaf_f1": 0.5285961112997776,
+        "best_leaf_f1_by_population": {
+          "CD4_T": 1.0,
+          "CD8_T": 1.0,
+          "HSC": 0.3111111111111111,
+          "HSPC_CD123neg": 0.7936507936507936,
+          "HSPC_CD123pos": 0.1,
+          "NK_CD16neg": 0.6,
+          "NK_CD16pos": 0.39080459770114945,
+          "basophil": 0.22784810126582278,
+          "mature_B": 0.6063829787234043,
+          "monocyte": 0.9875,
+          "pDC": 0.25,
+          "plasma_B": 0.1111111111111111,
+          "pre_B": 0.8314606741573034,
+          "pro_B": 0.19047619047619047
+        },
+        "population_totals": {
+          "CD4_T": 202,
+          "CD8_T": 154,
+          "HSC": 7,
+          "HSPC_CD123neg": 25,
+          "HSPC_CD123pos": 2,
+          "NK_CD16neg": 30,
+          "NK_CD16pos": 17,
+          "basophil": 9,
+          "mature_B": 127,
+          "monocyte": 162,
+          "pDC": 10,
+          "plasma_B": 3,
+          "pre_B": 47,
+          "pro_B": 4
+        },
+        "contingency_counts": [
+          {
+            "monocyte": 158
+          },
+          {
+            "basophil": 9,
+            "NK_CD16neg": 30,
+            "NK_CD16pos": 17,
+            "monocyte": 1,
+            "pDC": 10,
+            "pre_B": 3
+          },
+          {
+            "mature_B": 5,
+            "pre_B": 37
+          },
+          {
+            "mature_B": 18,
+            "monocyte": 3,
+            "pre_B": 2
+          },
+          {
+            "mature_B": 57,
+            "pre_B": 4
+          },
+          {
+            "mature_B": 47,
+            "plasma_B": 3,
+            "pre_B": 1
+          },
+          {
+            "HSPC_CD123neg": 25,
+            "HSPC_CD123pos": 2,
+            "HSC": 7,
+            "pro_B": 4
+          },
+          {
+            "CD4_T": 202
+          },
+          {
+            "CD8_T": 154
+          }
+        ]
+      }
+    },
+    {
+      "file": "results/levine_stability_cap60_B30_s0.json",
+      "source_sha256": "fdffe3f65a5e324d44bb59dfcc5990a273ba4b2c0d0bc262fcab5cb103cfcde3",
+      "saved_config": {
+        "depth": 6,
+        "cap": 60,
+        "B": 30,
+        "frac": 0.7,
+        "stab_bar": 0.0,
+        "jobs": 8,
+        "seed": 0,
+        "term": "graphcut",
+        "n_prop": 800,
+        "proportional": false
+      },
+      "n": 840,
+      "internal_nodes": 16,
+      "leaves": 17,
+      "mean_node_population_retention": 0.9281211083731635,
+      "worst_node_population_retention": 0.6701149425287356,
+      "nodes_below_0_90_retention": 4,
+      "canonical_primary_hits": 8,
+      "checkable_boundaries": 11,
+      "panels_assessed_for_drop_one": 0,
+      "drop_one_retention_cost_le_0_005": 0,
+      "leaf_reasons": {
+        "too few cells": 13,
+        "single population": 3,
+        "depth limit": 1
+      },
+      "final_partition": {
+        "ari": 0.7927069026262408,
+        "leaf_purity": 0.8904761904761904,
+        "macro_best_leaf_f1": 0.8625472745667736,
+        "best_leaf_f1_by_population": {
+          "CD4_T": 0.9915966386554622,
+          "CD8_T": 0.9915966386554622,
+          "HSC": 0.9743589743589743,
+          "HSPC_CD123neg": 0.9915966386554622,
+          "HSPC_CD123pos": 0.9917355371900827,
+          "NK_CD16neg": 0.5467625899280576,
+          "NK_CD16pos": 0.5899280575539568,
+          "basophil": 0.9090909090909091,
+          "mature_B": 0.9166666666666666,
+          "monocyte": 0.9666666666666667,
+          "pDC": 0.8118811881188119,
+          "plasma_B": 0.9026548672566371,
+          "pre_B": 0.6792452830188679,
+          "pro_B": 0.8118811881188119
+        },
+        "population_totals": {
+          "CD4_T": 60,
+          "CD8_T": 60,
+          "HSC": 60,
+          "HSPC_CD123neg": 60,
+          "HSPC_CD123pos": 60,
+          "NK_CD16neg": 60,
+          "NK_CD16pos": 60,
+          "basophil": 60,
+          "mature_B": 60,
+          "monocyte": 60,
+          "pDC": 60,
+          "plasma_B": 60,
+          "pre_B": 60,
+          "pro_B": 60
+        },
+        "contingency_counts": [
+          {
+            "mature_B": 4,
+            "monocyte": 1,
+            "plasma_B": 5,
+            "pre_B": 36
+          },
+          {
+            "mature_B": 1,
+            "plasma_B": 3,
+            "pre_B": 21
+          },
+          {
+            "NK_CD16pos": 2,
+            "CD4_T": 1,
+            "CD8_T": 1,
+            "mature_B": 55,
+            "monocyte": 1
+          },
+          {
+            "plasma_B": 51,
+            "pre_B": 2
+          },
+          {
+            "HSC": 3,
+            "pro_B": 19
+          },
+          {
+            "pro_B": 41
+          },
+          {
+            "monocyte": 58,
+            "plasma_B": 1,
+            "pre_B": 1
+          },
+          {
+            "NK_CD16neg": 22,
+            "NK_CD16pos": 17
+          },
+          {
+            "NK_CD16neg": 38,
+            "NK_CD16pos": 41
+          },
+          {
+            "CD8_T": 59
+          },
+          {
+            "CD4_T": 59
+          },
+          {
+            "basophil": 50
+          },
+          {
+            "pDC": 41
+          },
+          {
+            "basophil": 10,
+            "pDC": 19
+          },
+          {
+            "HSC": 57
+          },
+          {
+            "HSPC_CD123neg": 59
+          },
+          {
+            "HSPC_CD123neg": 1,
+            "HSPC_CD123pos": 60
+          }
+        ]
+      }
+    }
+  ],
+  "label_control_probe": {
+    "source": "scripts/run_levine_tree.py",
+    "fixed_X_shape": [
+      100,
+      2
+    ],
+    "source_sha256": "d2d48cbed0039d3ccf9ecac94f4bc76738997adb172a38604238cfa4ed4e8ca1",
+    "method": "Actual source functions with search stub; no clustering fitted",
+    "label_independent_control_flow": false,
+    "conditions": [
+      {
+        "condition": "constant_reference_labels",
+        "reason": "pure",
+        "search_calls": 0
+      },
+      {
+        "condition": "balanced_reference_labels",
+        "reason": "no scorable panel (0 degenerate nulls)",
+        "search_calls": 1
+      }
+    ]
+  }
+}

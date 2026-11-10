@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "run": "C:\\Users\\Peter\\Desktop\\Github\\ATOMIC_Clustering\\results\\research_feature_set_replication\\20261025T235417_772095Z",
+  "checks": 5002,
+  "jobs": 4,
+  "methods": 8,
+  "feature_sets": 128,
+  "panels": 128,
+  "errors": [],
+  "notes": [],
+  "scope": "saved-state numerical, native-rule, budget, score, frozen-selection, metric and provenance replay; independent normalization for selected/oracle models only; no refitting, new-arm local moves replayed but exploration and random neighbor ordering not reconstructed; no independent proof of leakage absence, no cluster-validity guarantee"
+}

@@ -1,0 +1,259 @@
+{
+  "status": "complete",
+  "parent_manifest_sha256": "a44af0e5f34b5f4cbc349e8a0995149bfdb627884bbeb7634623f1ba5d878cdf",
+  "source_run": "C:\\Users\\Peter\\Desktop\\Github\\ATOMIC_Clustering\\results\\research_rank_preservation\\20260930T044157_487943Z",
+  "jobs": [
+    {
+      "name": "mean_shift_p200_s12_b16_seed26_global",
+      "parent_config": {
+        "dataset": "mean_shift",
+        "p": 200,
+        "signals": 12,
+        "seed": 26,
+        "budget": 16,
+        "n": 800,
+        "rank": 2,
+        "steps": 60,
+        "restarts": 3,
+        "neighbors": 7,
+        "max_samples": 200,
+        "name": "mean_shift_p200_s12_b16_seed26"
+      },
+      "kernel": "global"
+    },
+    {
+      "name": "grouped_moons_p50_s10_b16_seed26_global",
+      "parent_config": {
+        "dataset": "grouped_moons",
+        "p": 50,
+        "signals": 10,
+        "seed": 26,
+        "budget": 16,
+        "n": 800,
+        "rank": 2,
+        "steps": 60,
+        "restarts": 3,
+        "neighbors": 7,
+        "max_samples": 200,
+        "name": "grouped_moons_p50_s10_b16_seed26"
+      },
+      "kernel": "global"
+    },
+    {
+      "name": "null_independent_p50_s2_b16_seed26_global",
+      "parent_config": {
+        "dataset": "null_independent",
+        "p": 50,
+        "signals": 2,
+        "seed": 26,
+        "budget": 16,
+        "n": 800,
+        "rank": 2,
+        "steps": 60,
+        "restarts": 3,
+        "neighbors": 7,
+        "max_samples": 200,
+        "name": "null_independent_p50_s2_b16_seed26"
+      },
+      "kernel": "global"
+    },
+    {
+      "name": "null_correlated_p50_s2_b16_seed26_global",
+      "parent_config": {
+        "dataset": "null_correlated",
+        "p": 50,
+        "signals": 2,
+        "seed": 26,
+        "budget": 16,
+        "n": 800,
+        "rank": 2,
+        "steps": 60,
+        "restarts": 3,
+        "neighbors": 7,
+        "max_samples": 200,
+        "name": "null_correlated_p50_s2_b16_seed26"
+      },
+      "kernel": "global"
+    },
+    {
+      "name": "mean_shift_p200_s12_b16_seed27_global",
+      "parent_config": {
+        "dataset": "mean_shift",
+        "p": 200,
+        "signals": 12,
+        "seed": 27,
+        "budget": 16,
+        "n": 800,
+        "rank": 2,
+        "steps": 60,
+        "restarts": 3,
+        "neighbors": 7,
+        "max_samples": 200,
+        "name": "mean_shift_p200_s12_b16_seed27"
+      },
+      "kernel": "global"
+    },
+    {
+      "name": "grouped_moons_p50_s10_b16_seed27_global",
+      "parent_config": {
+        "dataset": "grouped_moons",
+        "p": 50,
+        "signals": 10,
+        "seed": 27,
+        "budget": 16,
+        "n": 800,
+        "rank": 2,
+        "steps": 60,
+        "restarts": 3,
+        "neighbors": 7,
+        "max_samples": 200,
+        "name": "grouped_moons_p50_s10_b16_seed27"
+      },
+      "kernel": "global"
+    },
+    {
+      "name": "null_independent_p50_s2_b16_seed27_global",
+      "parent_config": {
+        "dataset": "null_independent",
+        "p": 50,
+        "signals": 2,
+        "seed": 27,
+        "budget": 16,
+        "n": 800,
+        "rank": 2,
+        "steps": 60,
+        "restarts": 3,
+        "neighbors": 7,
+        "max_samples": 200,
+        "name": "null_independent_p50_s2_b16_seed27"
+      },
+      "kernel": "global"
+    },
+    {
+      "name": "null_correlated_p50_s2_b16_seed27_global",
+      "parent_config": {
+        "dataset": "null_correlated",
+        "p": 50,
+        "signals": 2,
+        "seed": 27,
+        "budget": 16,
+        "n": 800,
+        "rank": 2,
+        "steps": 60,
+        "restarts": 3,
+        "neighbors": 7,
+        "max_samples": 200,
+        "name": "null_correlated_p50_s2_b16_seed27"
+      },
+      "kernel": "global"
+    },
+    {
+      "name": "mean_shift_p200_s12_b16_seed28_global",
+      "parent_config": {
+        "dataset": "mean_shift",
+        "p": 200,
+        "signals": 12,
+        "seed": 28,
+        "budget": 16,
+        "n": 800,
+        "rank": 2,
+        "steps": 60,
+        "restarts": 3,
+        "neighbors": 7,
+        "max_samples": 200,
+        "name": "mean_shift_p200_s12_b16_seed28"
+      },
+      "kernel": "global"
+    },
+    {
+      "name": "grouped_moons_p50_s10_b16_seed28_global",
+      "parent_config": {
+        "dataset": "grouped_moons",
+        "p": 50,
+        "signals": 10,
+        "seed": 28,
+        "budget": 16,
+        "n": 800,
+        "rank": 2,
+        "steps": 60,
+        "restarts": 3,
+        "neighbors": 7,
+        "max_samples": 200,
+        "name": "grouped_moons_p50_s10_b16_seed28"
+      },
+      "kernel": "global"
+    },
+    {
+      "name": "null_independent_p50_s2_b16_seed28_global",
+      "parent_config": {
+        "dataset": "null_independent",
+        "p": 50,
+        "signals": 2,
+        "seed": 28,
+        "budget": 16,
+        "n": 800,
+        "rank": 2,
+        "steps": 60,
+        "restarts": 3,
+        "neighbors": 7,
+        "max_samples": 200,
+        "name": "null_independent_p50_s2_b16_seed28"
+      },
+      "kernel": "global"
+    },
+    {
+      "name": "null_correlated_p50_s2_b16_seed28_global",
+      "parent_config": {
+        "dataset": "null_correlated",
+        "p": 50,
+        "signals": 2,
+        "seed": 28,
+        "budget": 16,
+        "n": 800,
+        "rank": 2,
+        "steps": 60,
+        "restarts": 3,
+        "neighbors": 7,
+        "max_samples": 200,
+        "name": "null_correlated_p50_s2_b16_seed28"
+      },
+      "kernel": "global"
+    }
+  ],
+  "completed": [
+    "mean_shift_p200_s12_b16_seed26_global",
+    "grouped_moons_p50_s10_b16_seed26_global",
+    "null_independent_p50_s2_b16_seed26_global",
+    "null_correlated_p50_s2_b16_seed26_global",
+    "mean_shift_p200_s12_b16_seed27_global",
+    "grouped_moons_p50_s10_b16_seed27_global",
+    "null_independent_p50_s2_b16_seed27_global",
+    "null_correlated_p50_s2_b16_seed27_global",
+    "mean_shift_p200_s12_b16_seed28_global",
+    "grouped_moons_p50_s10_b16_seed28_global",
+    "null_independent_p50_s2_b16_seed28_global",
+    "null_correlated_p50_s2_b16_seed28_global"
+  ],
+  "source_sha256": {
+    "scripts\\run_research_panel_readouts.py": "c5e6b35a820b8a9c3c34c7562b4e07810283b3efe53d3e6cd6fd6c5c29177a78",
+    "atomic_research\\__init__.py": "97353df021f085e16f5db3003df3e0a291d67eba02848b920555e81542ffb097",
+    "atomic_research\\calibration.py": "bfee50fc263aa7f38341e991db572eb37efac93fa5e4301076069f66a98db758",
+    "atomic_research\\compression_audit.py": "9558fe8423a1f3ec93398e7931749cf6d3311c9f674f663f6542d7ebc35c8418",
+    "atomic_research\\datasets.py": "9142b7d7716be1bbc10a61f1dd5258c4a9d8cfb4f82a97b53897ab4d70a09b5e",
+    "atomic_research\\experiment.py": "d8441c0086aeb44a3126e4f1a074ca38d52dd44124231a9f3f76fa45ba0bc4b7",
+    "atomic_research\\fidelity_bounds.py": "b197a14afbcb8433ad479cc1fbaf19c68a17a6a1a479aa391c990c2d32b245bf",
+    "atomic_research\\kernel_benchmark.py": "45e060d5ad172ce34eb616c692ae366d8d34520d7b189529e3eb8096fb801bc6",
+    "atomic_research\\kernel_panels.py": "5816e83490eabf1ff62a2d7e786ea534a49d3e9a7fa994bc1b8fc01876750149",
+    "atomic_research\\obstacle_audits.py": "554f323e723b024e40a1c9832199703958c267195cad4e7362473ab3d8bf207d",
+    "atomic_research\\rank_preserved_kernel.py": "797a4357e59e67fb346c89a12ef721cd1b0e193e3419ef99f77e831259603b8a",
+    "atomic_research\\replicated_panels.py": "4ca9e2e59a752cfc8fd54ad4047e7c4c7edae0798fbe1e1d64ad46b8928c1750",
+    "atomic_research\\retained_models.py": "5b05a6e30579cd478bcc7f8c1dbf38f4081113c90b279cb8e9c1f4042eb552e8",
+    "atomic_research\\scoring.py": "3c548cf58641932a136fccc8e0f9330e2ae05f88c9a6a7b97b8443d56e04498f",
+    "atomic_research\\search.py": "96a8966ded5d0403d7a26e44597c4b9ec21778f4a6d97072191130824e6b5137",
+    "atomic_research\\soft_graph.py": "c48f6298137ea6c94ff86a722b15f4080650c4d0098191f0af3ce028b10d26fd",
+    "atomic_research\\sparse_kmeans.py": "30ff4797e21b3e37a596278696289c72d94081c561502f2e892b7114d20b2121"
+  },
+  "readouts_frozen_before_annotation_scoring": true,
+  "posthoc_development": true,
+  "seconds": 1.5539953999978025
+}

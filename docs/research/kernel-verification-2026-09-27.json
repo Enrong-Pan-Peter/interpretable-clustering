@@ -1,0 +1,10 @@
+{
+  "verification_date": "2026-09-27",
+  "tests_passed": 52,
+  "smoke_run": "results\\research_kernel_panels_smoke\\20260927T041842_528631Z",
+  "smoke_replay_checks": 46,
+  "smoke_source_hashes_verified": 46,
+  "historical_source_hashes_verified": 44,
+  "performance_claim": "none; smoke only",
+  "pilot_cases": 21
+}

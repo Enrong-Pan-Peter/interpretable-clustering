@@ -1,0 +1,16 @@
+# ATOMIC+ re-implementation (Phase 0/1). Core is NumPy + scikit-learn only.
+numpy>=1.23
+scipy>=1.9
+scikit-learn>=1.2
+pandas>=1.5
+# Data + demos
+ucimlrepo>=0.0.7      # programmatic UCI dataset download. NOTE: does NOT serve madelon/har/mice
+                      # -- those exist at UCI but are not API-exposed; download the zips by hand.
+xlrd>=2.0.1           # REQUIRED to read the Mice Protein .xls (pandas needs it for legacy .xls)
+joblib>=1.2           # --jobs parallelism in the experiment scripts
+matplotlib>=3.6       # figures / demos
+# Optional
+umap-learn>=0.5       # 2-D visualisation only (not used by the algorithm)
+pytest>=7.0
+# NOTE: no DEAP. The EA is clean-room NumPy/scikit-learn; our NSGA-II was verified
+# equal to DEAP's sortNondominated once, then the dependency was dropped.

@@ -1,0 +1,155 @@
+{
+  "status": "complete",
+  "created_utc": "2026-10-20T14:28:17.918898+00:00",
+  "jobs": [
+    {
+      "name": "shells_d2_p14_seed2309_search3101",
+      "case": "shells",
+      "dimension": 2,
+      "p": 14,
+      "seed": 2309,
+      "search_seed": 3101,
+      "n_fit": 160,
+      "n_search": 160,
+      "n_validation": 160,
+      "n_test": 160,
+      "max_size": 10,
+      "budget": 48,
+      "methods": [
+        "random",
+        "random_local",
+        "dependence_local",
+        "shuffled_dependence_local"
+      ]
+    },
+    {
+      "name": "shells_d4_p14_seed2309_search3101",
+      "case": "shells",
+      "dimension": 4,
+      "p": 14,
+      "seed": 2309,
+      "search_seed": 3101,
+      "n_fit": 160,
+      "n_search": 160,
+      "n_validation": 160,
+      "n_test": 160,
+      "max_size": 10,
+      "budget": 48,
+      "methods": [
+        "random",
+        "random_local",
+        "dependence_local",
+        "shuffled_dependence_local"
+      ]
+    },
+    {
+      "name": "shells_d8_p14_seed2309_search3101",
+      "case": "shells",
+      "dimension": 8,
+      "p": 14,
+      "seed": 2309,
+      "search_seed": 3101,
+      "n_fit": 160,
+      "n_search": 160,
+      "n_validation": 160,
+      "n_test": 160,
+      "max_size": 10,
+      "budget": 48,
+      "methods": [
+        "random",
+        "random_local",
+        "dependence_local",
+        "shuffled_dependence_local"
+      ]
+    },
+    {
+      "name": "single_shell_d5_p14_seed2309_search3101",
+      "case": "single_shell",
+      "dimension": 5,
+      "p": 14,
+      "seed": 2309,
+      "search_seed": 3101,
+      "n_fit": 160,
+      "n_search": 160,
+      "n_validation": 160,
+      "n_test": 160,
+      "max_size": 10,
+      "budget": 48,
+      "methods": [
+        "random",
+        "random_local",
+        "dependence_local",
+        "shuffled_dependence_local"
+      ]
+    },
+    {
+      "name": "correlated_gaussian_d5_p14_seed2309_search3101",
+      "case": "correlated_gaussian",
+      "dimension": 5,
+      "p": 14,
+      "seed": 2309,
+      "search_seed": 3101,
+      "n_fit": 160,
+      "n_search": 160,
+      "n_validation": 160,
+      "n_test": 160,
+      "max_size": 10,
+      "budget": 48,
+      "methods": [
+        "random",
+        "random_local",
+        "dependence_local",
+        "shuffled_dependence_local"
+      ]
+    },
+    {
+      "name": "mean_shift_d3_p14_seed2309_search3101",
+      "case": "mean_shift",
+      "dimension": 3,
+      "p": 14,
+      "seed": 2309,
+      "search_seed": 3101,
+      "n_fit": 160,
+      "n_search": 160,
+      "n_validation": 160,
+      "n_test": 160,
+      "max_size": 10,
+      "budget": 48,
+      "methods": [
+        "random",
+        "random_local",
+        "dependence_local",
+        "shuffled_dependence_local"
+      ]
+    }
+  ],
+  "completed": [
+    "shells_d2_p14_seed2309_search3101",
+    "shells_d4_p14_seed2309_search3101",
+    "shells_d8_p14_seed2309_search3101",
+    "single_shell_d5_p14_seed2309_search3101",
+    "correlated_gaussian_d5_p14_seed2309_search3101",
+    "mean_shift_d3_p14_seed2309_search3101"
+  ],
+  "current_job": null,
+  "source_sha256": {
+    "atomic_research/radial_panels.py": "0ddf40908b5ae79b5c96db6f314cb8db251bcd1477127010f933f1de01c95dd9",
+    "atomic_research/radial_diagnostics.py": "ba3c9233704ec9421ceda67b91d687af5951bf84e516393e6dc8be4d23e874d3",
+    "atomic_research/radial_search.py": "e076de2673c50f13a184724ffa05ede9a96534346d75c6f7c7d3b2400f76725a",
+    "atomic_research/radial_search_experiment.py": "3291e7671a5d10a6b8edbb500aea40020a1ae8d85d1d838d41f071cafb30c126",
+    "scripts/run_research_radial_search.py": "8ec5e9e00cbbfe9c887297f6eb09ad09a2be600549e4a7f9d8012db7c3fec886"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "threads": 1,
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "threadpoolctl": "3.6.0"
+  },
+  "scope": "development comparison of hidden-panel search; no novelty or split-validity guarantee",
+  "selection": "adaptive search block only; validation/test never select a panel",
+  "oracle_role": "post-search diagnostic only, never injected into discovery",
+  "fit_budget": "same unique radial2 fits per arm; post-selection radial1/oracle fits separate",
+  "seconds": 62.143908200087026
+}

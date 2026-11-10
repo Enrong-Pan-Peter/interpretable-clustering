@@ -1,0 +1,132 @@
+{
+  "status": "complete",
+  "suite": "smoke",
+  "created_utc": "2026-10-25T23:05:53.094583+00:00",
+  "jobs": [
+    {
+      "name": "baseline_shells_d4_p24_seed5903_search6907",
+      "experiment": "feature_set_replication",
+      "condition": "baseline",
+      "case": "shells",
+      "dimension": 4,
+      "p": 24,
+      "seed": 5903,
+      "search_seed": 6907,
+      "n_fit": 120,
+      "n_search": 120,
+      "n_validation": 120,
+      "n_test": 120,
+      "budget": 16,
+      "max_size": 10,
+      "methods": [
+        "moment_best",
+        "kernel_best"
+      ]
+    },
+    {
+      "name": "more_nuisance_shells_d4_p72_seed5903_search6907",
+      "experiment": "feature_set_replication",
+      "condition": "more_nuisance",
+      "case": "shells",
+      "dimension": 4,
+      "p": 72,
+      "seed": 5903,
+      "search_seed": 6907,
+      "n_fit": 120,
+      "n_search": 120,
+      "n_validation": 120,
+      "n_test": 120,
+      "budget": 16,
+      "max_size": 10,
+      "methods": [
+        "moment_best",
+        "kernel_best"
+      ]
+    },
+    {
+      "name": "weak_separation_shells_d4_p24_seed5903_search6907",
+      "experiment": "feature_set_replication",
+      "condition": "weak_separation",
+      "case": "shells",
+      "dimension": 4,
+      "p": 24,
+      "seed": 5903,
+      "search_seed": 6907,
+      "n_fit": 120,
+      "n_search": 120,
+      "n_validation": 120,
+      "n_test": 120,
+      "budget": 16,
+      "max_size": 10,
+      "methods": [
+        "moment_best",
+        "kernel_best"
+      ]
+    },
+    {
+      "name": "dependent_nuisance_shells_d4_p24_seed5903_search6907",
+      "experiment": "feature_set_replication",
+      "condition": "dependent_nuisance",
+      "case": "shells",
+      "dimension": 4,
+      "p": 24,
+      "seed": 5903,
+      "search_seed": 6907,
+      "n_fit": 120,
+      "n_search": 120,
+      "n_validation": 120,
+      "n_test": 120,
+      "budget": 16,
+      "max_size": 10,
+      "methods": [
+        "moment_best",
+        "kernel_best"
+      ]
+    }
+  ],
+  "completed": [
+    "baseline_shells_d4_p24_seed5903_search6907",
+    "more_nuisance_shells_d4_p72_seed5903_search6907",
+    "weak_separation_shells_d4_p24_seed5903_search6907",
+    "dependent_nuisance_shells_d4_p24_seed5903_search6907"
+  ],
+  "current_job": null,
+  "replication": {
+    "frozen_candidate_sha256": "a5bb6072c18bddbe59dde02f19efafb63f3b801a7149b5802a7fa3813cecadbd",
+    "core_sha256": {
+      "atomic_research/radial_panels.py": "0ddf40908b5ae79b5c96db6f314cb8db251bcd1477127010f933f1de01c95dd9",
+      "atomic_research/radial_diagnostics.py": "ba3c9233704ec9421ceda67b91d687af5951bf84e516393e6dc8be4d23e874d3",
+      "atomic_research/radial_search.py": "d2ca8c0f4d0b0403c67aebc9f5db096633bad34c3a6673c11e995f7361bc25e8",
+      "atomic_research/feature_dependence.py": "c00629599b4caf850c2759ed1d3cfecb8695561e5e9c16c375d1ffc94f6827df"
+    },
+    "prior_pipeline_sha256": "3b2e8d46c17114ce618be093b6640610f4cade3fc554198cea3384b8474d7be8",
+    "current_pipeline_sha256": "d50830a7821d70faeb84fee7c1228eb35725716dd72403f241d9fef0f6e6f942",
+    "pipeline_equivalence": "AST identity of fitting/reporting and split flags after removing optional data-generator hook",
+    "independent_data_replication": true,
+    "statistical_units": "63 populations, each searched with 2 search seeds; 126 jobs are not 126 independent datasets"
+  },
+  "source_sha256": {
+    "atomic_research/radial_panels.py": "0ddf40908b5ae79b5c96db6f314cb8db251bcd1477127010f933f1de01c95dd9",
+    "atomic_research/radial_diagnostics.py": "ba3c9233704ec9421ceda67b91d687af5951bf84e516393e6dc8be4d23e874d3",
+    "atomic_research/radial_search.py": "d2ca8c0f4d0b0403c67aebc9f5db096633bad34c3a6673c11e995f7361bc25e8",
+    "atomic_research/feature_dependence.py": "c00629599b4caf850c2759ed1d3cfecb8695561e5e9c16c375d1ffc94f6827df",
+    "atomic_research/radial_search_experiment.py": "d50830a7821d70faeb84fee7c1228eb35725716dd72403f241d9fef0f6e6f942",
+    "atomic_research/feature_set_replication_data.py": "4de16b3a7099739e5565111ddb78638ad412c7ec8943a1a408a35a803cb02da0",
+    "scripts/run_research_feature_set_replication.py": "4b4b36a4ca03be32f7eff0ee3b7f7975d4bfa6fbf23ffcb5695413b8a1bd5163",
+    "scripts/run_research_radial_search.py": "bcde54d46804932f5a68479c53e31112003987fb23d8eece39c66ad514cd9c32",
+    "scripts/analyze_research_radial_search.py": "b938db7bc89ab902d5fa4b9c930fa9b69b880302a41d2da6af2c8737c3a644e4"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "threads": 1,
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "threadpoolctl": "3.6.0"
+  },
+  "scope": "frozen two-arm replication and predeclared stress conditions; smoke is engineering verification only",
+  "selection": "fit models on fit rows, select on search rows; validation and test never select or refit",
+  "oracle_role": "post-search diagnostic only, no oracle support or labels supplied to search",
+  "fit_budget": "same unique radial2 fits per arm; post-selection radial1/oracle fits separate",
+  "seconds": 7.85525800002506
+}
